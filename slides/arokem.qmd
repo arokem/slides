@@ -1,0 +1,43 @@
+---
+title: "Introduction"
+author: "Ariel Rokem"
+format:
+  revealjs:
+    incremental: true
+    theme: theme.scss
+    transition: fade
+    background-transition: fade
+    highlight-style: a11y
+code-link: true
+execute:
+  echo: true
+  freeze: auto
+---
+
+# Introduction
+
+- Eat spaghetti
+. . .
+- Drink wine
+
+# With images
+
+::: columns
+::: {.column width="50%" style="text-align: center;"}
+
+**Column header 1**
+
+Something about something
+:::
+
+::: {.column width="50%" style="text-align: center;"}
+
+**Column header 2:**
+
+Something about something else
+:::
+:::
+
+# Questions?
+
+Anyone? Bueller?

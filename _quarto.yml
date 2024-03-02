@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Ariel Rokem talks/slides"
+  description: "."
+  site-url: "https://arokem.github.io/talks"
+
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2024, Ariel Rokem"
+
+  sidebar:
+    style: "docked"
+    tools:
+      - icon: github
+        href: https://github.com/arokem/talks
+    contents:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    mainfont: "Open Sans"
+
+editor: visual
+
+execute:
+  freeze: auto
