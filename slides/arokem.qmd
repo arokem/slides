@@ -35,7 +35,7 @@ I am:
 - Research faculty in the Psychology Department (2020 - present)
 :::
 
-# Current research program
+# Research
 
 :::{. small}
 - Neuroscience
