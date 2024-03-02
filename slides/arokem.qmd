@@ -16,6 +16,8 @@ execute:
 
 # Hello 👋
 
+![](images/tidyverse.png){fig-align="center"}
+
 I am:
 
 - Ariel Rokem
