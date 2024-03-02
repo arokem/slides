@@ -8,9 +8,11 @@ $font-family-sans-serif: "Open Sans", sans-serif;
 $presentation-heading-color: #00589b;
 $presentation-title-slide-text-align: "left";
 $presentation-subtitle-slide-text-align: "left";
+$presentation-block-margin: 0.1em;
 $code-block-font-size: 0.6em;
 $code-color: #5f5f5f;
 $presentation-h2-font-size: 1.4em;
+$presentation-h1-font-size: 2em;
 
 /*-- scss:rules --*/
 
@@ -53,8 +55,16 @@ details>summary {
   font-size: 0.75em;
 }
 
-.small {
+.medium {
   font-size: 0.75em;
+}
+
+.small {
+  font-size: 0.65em;
+}
+
+.tiny {
+  font-size: 0.45em;
 }
 
 .reveal .slide .in-out {

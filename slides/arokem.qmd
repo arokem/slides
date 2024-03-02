@@ -1,6 +1,6 @@
 ---
-title: "About me"
-author: "Ariel Rokem"
+title: "Hello 👋"
+affiliation: "University of Washington"
 format:
   revealjs:
     incremental: true
@@ -14,18 +14,54 @@ execute:
   freeze: auto
 ---
 
-# Hello 👋
 
-![](images/arokem.png){fig-align="center"}
+![](images/arokem.png){fig-align="right"}
 
 I am:
 
+::: medium
 - Ariel Rokem
 - Research Associate Professor in the [Psychology Department, University of Washington](https://psych.uw.edu/)
 - Data Science Fellow at the [University of Washington eScience Institute](https://escience.washington.edu/)
 - PI of the [Neuroinformatics R&D group](https://neuroinformatics.uw.edu) in the Psychology Department
+:::
 
-# History
+---
+
+# NRDG members
+
+::: {.nonincremental}
+::: {.columns}
+::: {.column width="50%"}
+
+![](images/kchang.png){width=30%}
+Kelly Chang
+
+![](images/agilmore.png){width=30%}
+Asa Gilmore
+
+![](images/mhagen.png){width=30%}
+McKenzie Hagen
+
+
+:::
+::: {.column width="50%"}
+
+![](images/jkruper.png){width=30%}
+John Kruper
+
+::: {.r-stretch}
+Teresa Gomez
+:::
+
+:::
+:::
+[https://neuroinformatics.uw.edu](https://neuroinformatics.uw.edu)
+:::
+---
+
+# A little bit of history
+
 ::: small
 - Grew up in Jerusalem, Israel + Berkeley, CA + Stockholm, Sweden
 - B.Sc. in Biology and Psychology at the Hebrew University of Jerusalem (2002)
@@ -45,31 +81,61 @@ I am:
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
 :::
 
-# Neural correlates of reading ability
+---
+## Neural correlates of reading ability
+
+:::: {.columns}
+::: {.column width="50%"}
+
+::: {.r-stack}
+![](images/all_bundles.gif){.fragment width="450" height="450"}
+
+![](images/arc1.gif){.fragment width="450" height="450"}
+:::
+
+::: tiny
+Kruper et al. ([2021](https://apertureneuro.org/article/77465-evaluating-the-reliability-of-human-brain-white-matter-tractometry), 2024), Richie-Halford et al. ([2021](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009136), [2022](https://www.nature.com/articles/s41597-022-01695-7))
+:::
+
+:::
+
+::: {.column width="50%" .fragment .fade-in}
+
+![](images/seda.png){height="500"}
+
+::: tiny
+Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324000021), [2024](https://www.biorxiv.org/content/10.1101/2023.10.10.561784v1.full))
+:::
+:::
+
+
+::::
 
 # Research
+
 ::: small
+::: {.nonincremental}
 - Neuroscience
   - Development
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
     - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+:::
 :::
 
 # Early life brain development
 
-# Research
+::: {.r-stack}
+![](images/brainGrowthMovieYear1To2_sidebyside.gif){.fragment .fade-out}
 
-::: small
-- Neuroscience
-  - Development
-    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
-    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
-  - Aging
-    - Retinal diseases
+::: {.fragment}
+![](images/baby_bundles.png){height="500"}
+
+::: tiny
+[Grotheer et al. 2023](https://www.pnas.org/doi/10.1073/pnas.2303491120)
+:::
 :::
 
-
-# Retinal diseases
+:::
 
 # Research
 
