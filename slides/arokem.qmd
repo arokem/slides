@@ -16,7 +16,7 @@ execute:
 
 # Hello 👋
 
-![](images/tidyverse.png){fig-align="center"}
+![](images/arokem.png){fig-align="center"}
 
 I am:
 
@@ -124,5 +124,6 @@ I am:
 
 # Questions?
 
-https://arokem.org
-https://neuroinformatics.uw.edu
+[https://arokem.org](https://arokem.org)
+
+[https://neuroinformatics.uw.edu](https://neuroinformatics.uw.edu)
