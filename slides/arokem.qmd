@@ -24,7 +24,7 @@ I am:
 - PI of the [Neuroinformatics R&D group](https://neuroinformatics.uw.edu) in the Psychology Department
 
 # History
-
+:::{. small}
 - Grew up in Jerusalem, Israel + Berkeley, CA + Stockholm, Sweden
 - B.Sc. in Biology and Psychology at the Hebrew University of Jerusalem (2002)
 - Postbacc at the Humboldt University, Berlin with [Andreas Herz](https://www.neuro.bio.lmu.de/members/comp_neuro_herz/herz_a/index.html) (2002-2003)
@@ -33,9 +33,11 @@ I am:
 - Postdoc at Stanford with [Brian Wandell](https://vistalab.stanford.edu/people/brian-wandell) (2011-2015)
 - Senior Data Scientist at the University of Washington eScience Institute (2015-2020)
 - Research faculty in the Psychology Department (2020 - present)
+:::
 
 # Current research program
 
+:::{. small}
 - Neuroscience
   - Development
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
@@ -45,5 +47,10 @@ I am:
     - Retinal disease
 - Machine learning and statistics
 - Open source software and open data
+- Director of the Summer Institute in Neuroimaging and Data Science ([NeuroHackademy](https://neurohackademy.org))
+:::
 
 # Questions?
+
+https://arokem.org
+https://neuroinformatics.uw.edu
