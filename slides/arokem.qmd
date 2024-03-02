@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "About me"
 author: "Ariel Rokem"
 format:
   revealjs:
@@ -14,30 +14,36 @@ execute:
   freeze: auto
 ---
 
-# Introduction
+# Hello 👋
 
-- Eat spaghetti
-. . .
-- Drink wine
+I am:
 
-# With images
+- Ariel Rokem
+- Research Associate Professor in the [Psychology Department, University of Washington](https://psych.uw.edu/)
+- Data Science Fellow at the [University of Washington eScience Institute](https://escience.washington.edu/)
+- PI of the [Neuroinformatics R&D group](https://neuroinformatics.uw.edu) in the Psychology Department
 
-::: columns
-::: {.column width="50%" style="text-align: center;"}
+# History
 
-**Column header 1**
+- Grew up in Jerusalem, Israel + Berkeley, CA + Stockholm, Sweden
+- B.Sc. in Biology and Psychology at the Hebrew University of Jerusalem (2002)
+- Postbacc at the Humboldt University, Berlin with [Andreas Herz](https://www.neuro.bio.lmu.de/members/comp_neuro_herz/herz_a/index.html) (2002-2003)
+- M.A. in Cognitive Psychology at the Hebrew University of Jerusalem with [Merav Ahissar](https://elsc.huji.ac.il/people-directory/faculty-members/merav-ahissar/) (2005)
+- PhD in Neuroscience at UC Berkeley with [Michael Silver](https://argentum.ucbso.berkeley.edu/) (2010)
+- Postdoc at Stanford with [Brian Wandell](https://vistalab.stanford.edu/people/brian-wandell) (2011-2015)
+- Senior Data Scientist at the University of Washington eScience Institute (2015-2020)
+- Research faculty in the Psychology Department (2020 - present)
 
-Something about something
-:::
+# Current research program
 
-::: {.column width="50%" style="text-align: center;"}
-
-**Column header 2:**
-
-Something about something else
-:::
-:::
+- Neuroscience
+  - Development
+    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+  - Aging
+    - Alzheimers and related diseases
+    - Retinal disease
+- Machine learning and statistics
+- Open source software and open data
 
 # Questions?
-
-Anyone? Bueller?
