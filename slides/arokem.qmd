@@ -35,9 +35,25 @@ I am:
 - Research faculty in the Psychology Department (2020 - present)
 :::
 
-::: aside
-This is a place to put citations and such
+# Research
+
+::: small
+- Neuroscience
+  - Development
+    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
 :::
+
+# Neural correlates of reading ability
+
+# Research
+::: small
+- Neuroscience
+  - Development
+    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+:::
+
+# Early life brain development
 
 # Research
 
@@ -47,12 +63,62 @@ This is a place to put citations and such
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
     - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
   - Aging
-    - Alzheimers and related diseases
+    - Retinal diseases
+:::
+
+
+# Retinal diseases
+
+# Research
+
+::: small
+- Neuroscience
+  - Development
+    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+  - Aging
     - Retinal disease
+    - Alzheimer's and related diseases
+:::
+
+# Alzheimer's and related diseases
+
+
+# Research
+
+::: small
+- Neuroscience
+  - Development
+    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+  - Aging
+    - Retinal disease
+    - Alzheimers and related diseases
+- Machine learning and statistics
+- Open source software and open data
+:::
+
+# Methods for neuroscience data analysis
+
+
+# Research
+
+::: small
+- Neuroscience
+  - Development
+    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+  - Aging
+    - Retinal disease
+    - Alzheimers and related diseases
 - Machine learning and statistics
 - Open source software and open data
 - Director of the Summer Institute in Neuroimaging and Data Science ([NeuroHackademy](https://neurohackademy.org))
 :::
+
+
+# Neurohackademy
+
 
 # Questions?
 
