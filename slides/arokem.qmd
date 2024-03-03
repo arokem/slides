@@ -1,5 +1,6 @@
 ---
 title: "Hello 👋"
+subtitle: "[https://arokem.github.io/talks/slides/arokem.html](https://arokem.github.io/talks/slides/arokem.html)"
 affiliation: "University of Washington"
 format:
   revealjs:
@@ -20,7 +21,7 @@ execute:
 I am:
 
 ::: medium
-- Ariel Rokem
+- Ariel Rokem ([https://arokem.org](https://arokem.org))
 - Research Associate Professor in the [Psychology Department, University of Washington](https://psych.uw.edu/)
 - Data Science Fellow at the [University of Washington eScience Institute](https://escience.washington.edu/)
 - PI of the [Neuroinformatics R&D group](https://neuroinformatics.uw.edu) in the Psychology Department
@@ -116,8 +117,8 @@ Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324
 - Neuroscience
   - Development
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
-    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
 :::
+    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
 :::
 
 # Early life brain development
@@ -143,9 +144,9 @@ Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324
   - Development
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
     - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+:::
   - Aging
     - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
-:::
 :::
 
 ## Retinal disease
@@ -184,9 +185,9 @@ Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324
   - Aging
     - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
     - Alzheimers and related diseases (w/ [the ACT study](https://actagingresearch.org/))
+:::
 - Machine learning and statistics
 - Open source software and open data
-:::
 :::
 
 
