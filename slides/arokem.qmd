@@ -26,8 +26,6 @@ I am:
 - PI of the [Neuroinformatics R&D group](https://neuroinformatics.uw.edu) in the Psychology Department
 :::
 
----
-
 # NRDG members
 
 ::: {.nonincremental}
@@ -55,10 +53,11 @@ Teresa Gomez
 :::
 
 :::
+
 :::
 [https://neuroinformatics.uw.edu](https://neuroinformatics.uw.edu)
 :::
----
+
 
 # A little bit of history
 
@@ -81,7 +80,6 @@ Teresa Gomez
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
 :::
 
----
 ## Neural correlates of reading ability
 
 :::: {.columns}
@@ -140,52 +138,114 @@ Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324
 # Research
 
 ::: small
+::: {.nonincremental}
 - Neuroscience
   - Development
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
     - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
   - Aging
-    - Retinal disease
-    - Alzheimer's and related diseases
+    - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
+:::
 :::
 
-# Alzheimer's and related diseases
+## Retinal disease
+
+:::: {.columns}
+::: {.column width="50%" .fragment .fade-in}
+
+![](images/healthy_ig.png){width="500"}
+
+::: tiny
+[Mehta et al., 2021](https://pubmed.ncbi.nlm.nih.gov/33945818/)
+:::
+
+:::
+
+::: {.column width="50%" .fragment .fade-in}
+
+![](images/or_ukbb.png){height="500"}
+
+::: tiny
+[Kruper et al., 2023]()
+:::
+:::
+
+::::
 
 
 # Research
 
 ::: small
+::: {.nonincremental}
 - Neuroscience
   - Development
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
     - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
   - Aging
-    - Retinal disease
-    - Alzheimers and related diseases
+    - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
+    - Alzheimers and related diseases (w/ [the ACT study](https://actagingresearch.org/))
 - Machine learning and statistics
 - Open source software and open data
 :::
+:::
 
-# Methods for neuroscience data analysis
+
+## Methods for neuroscience data analysis
+
+:::: {.columns}
+::: {.column width="50%" .fragment .fade-in}
+
+![](images/dipy-logo.png){width="500"}
+
+[https://dipy.org](https://dipy.org){.fragment}
+
+
+:::
+
+::: {.column width="50%" .fragment .fade-in}
+
+![](images/hbn-pod2.png){width="500"}
+
+::: tiny
+[Richie-Halford et al., 2022](https://www.nature.com/articles/s41597-022-01695-7)
+:::
+
+:::{.fragment}
+![](images/brainage-nn.png){width="500"}
+
+::: tiny
+[Rokem et al., 2024](https://www.biorxiv.org/content/10.1101/2023.03.02.530885v1)
+:::
+:::
+:::
+
+::::
+
+
 
 
 # Research
 
 ::: small
+::: {.nonincremental}
+
 - Neuroscience
   - Development
     - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
     - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
   - Aging
-    - Retinal disease
-    - Alzheimers and related diseases
+    - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
+    - Alzheimers and related diseases (w/ [the ACT study](https://actagingresearch.org/))
 - Machine learning and statistics
 - Open source software and open data
-- Director of the Summer Institute in Neuroimaging and Data Science ([NeuroHackademy](https://neurohackademy.org))
+- ([NeuroHackademy](https://neurohackademy.org)): a summer institute in neuroimaging and data science
+:::
 :::
 
 
 # Neurohackademy
+
+![](images/neurohack-collage.png){height="500"}
 
 
 # Questions?
