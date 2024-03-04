@@ -1,5 +1,6 @@
 ---
 title: "Ariel Rokem talks/slides"
+mainfont: Open Sans
 ---
 
 - About me [\[slides\]](slides/me.html)
