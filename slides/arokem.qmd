@@ -65,9 +65,9 @@ Teresa Gomez
 ::: small
 - Grew up in Jerusalem, Israel + Berkeley, CA + Stockholm, Sweden
 - B.Sc. in Biology and Psychology at the Hebrew University of Jerusalem (2002)
-- Postbacc at the Humboldt University, Berlin with [Andreas Herz](https://www.neuro.bio.lmu.de/members/comp_neuro_herz/herz_a/index.html) (2002-2003)
+- Postbac in computational neuroscience at the Humboldt University, Berlin with [Andreas Herz](https://www.neuro.bio.lmu.de/members/comp_neuro_herz/herz_a/index.html) (2002-2003)
 - M.A. in Cognitive Psychology at the Hebrew University of Jerusalem with [Merav Ahissar](https://elsc.huji.ac.il/people-directory/faculty-members/merav-ahissar/) (2005)
-- PhD in Neuroscience at UC Berkeley with [Michael Silver](https://argentum.ucbso.berkeley.edu/) (2010)
+- Ph.D. in Neuroscience at UC Berkeley with [Michael Silver](https://argentum.ucbso.berkeley.edu/) (2010)
 - Postdoc at Stanford with [Brian Wandell](https://vistalab.stanford.edu/people/brian-wandell) (2011-2015)
 - Senior Data Scientist at the University of Washington eScience Institute (2015-2020)
 - Research faculty in the Psychology Department (2020 - present)
