@@ -15,10 +15,13 @@ website:
     style: "docked"
     tools:
       - icon: github
-        href: https://github.com/arokem/talks
+        href: https://github.com/arokem/
+      - icon: web
+        href: https://arokem.org/
     contents:
       - href: index.qmd
         text: Home
+
 
 format:
   html:
