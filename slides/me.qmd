@@ -1,6 +1,6 @@
 ---
 title: "Hello 👋"
-subtitle: "[https://arokem.github.io/talks/slides/arokem.html](https://arokem.github.io/talks/slides/arokem.html)"
+subtitle: "[https://slides.arokem.org/slides/me.html](https://slides.arokem.org/slides/me.html)"
 affiliation: "University of Washington"
 format:
   revealjs:
