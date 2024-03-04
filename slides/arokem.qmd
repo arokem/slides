@@ -76,9 +76,8 @@ Teresa Gomez
 # Research
 
 ::: small
-- Neuroscience
-  - Development
-    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+- Development
+  - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
 :::
 
 ## Neural correlates of reading ability
@@ -114,11 +113,10 @@ Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324
 
 ::: small
 ::: {.nonincremental}
-- Neuroscience
-  - Development
-    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+- Development
+  - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
 :::
-    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+  - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
 :::
 
 # Early life brain development
@@ -140,13 +138,12 @@ Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324
 
 ::: small
 ::: {.nonincremental}
-- Neuroscience
-  - Development
-    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
-    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+- Development
+  - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+  - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
 :::
-  - Aging
-    - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
+- Aging
+  - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
 :::
 
 ## Retinal disease
@@ -178,13 +175,12 @@ Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324
 
 ::: small
 ::: {.nonincremental}
-- Neuroscience
-  - Development
-    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
-    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
-  - Aging
-    - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
-    - Alzheimers and related diseases (w/ [the ACT study](https://actagingresearch.org/))
+- Development
+  - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+  - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+- Aging
+  - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
+  - Alzheimers and related diseases (w/ [the ACT study](https://actagingresearch.org/))
 :::
 - Machine learning and statistics
 - Open source software and open data
@@ -199,7 +195,6 @@ Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324
 ![](images/dipy-logo.png){width="500"}
 
 [https://dipy.org](https://dipy.org){.fragment}
-
 
 :::
 
@@ -229,18 +224,16 @@ Roy et al. ([2023](https://www.sciencedirect.com/science/article/pii/S1878929324
 
 ::: small
 ::: {.nonincremental}
-
-- Neuroscience
-  - Development
-    - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
-    - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
-  - Aging
-    - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
-    - Alzheimers and related diseases (w/ [the ACT study](https://actagingresearch.org/))
+- Development
+  - Neural correlates of reading ability (w/ [Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman))
+  - Early life brain development (w/ [Mareike Grotheer](https://www.uni-marburg.de/en/fb04/team-grotheer/team/dr-mareike-grotheer))
+- Aging
+  - Retinal disease (w/ [Aaron Lee and Cecilia Lee](https://comp.ophthalmology.uw.edu/))
+  - Alzheimers and related diseases (w/ [the ACT study](https://actagingresearch.org/))
 - Machine learning and statistics
 - Open source software and open data
-- ([NeuroHackademy](https://neurohackademy.org)): a summer institute in neuroimaging and data science
 :::
+- ([NeuroHackademy](https://neurohackademy.org)): a summer institute in neuroimaging and data science
 :::
 
 
