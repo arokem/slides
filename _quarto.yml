@@ -22,12 +22,11 @@ website:
       - href: index.qmd
         text: Home
 
-
 format:
   html:
     theme: cosmo
     css: styles.css
-    mainfont: "Open Sans"
+    toc: true
 
 editor: visual
 
