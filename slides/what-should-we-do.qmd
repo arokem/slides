@@ -1,0 +1,23 @@
+---
+title: "What should we do with Big Data?"
+subtitle: "[https://slides.arokem.org/slides/what-should-we-do.html](https://slides.arokem.org/slides/what-should-we-do.html)"
+affiliation: "University of Washington"
+format:
+  revealjs:
+    incremental: true
+    theme: theme.scss
+    transition: fade
+    background-transition: fade
+    highlight-style: a11y
+code-link: true
+execute:
+  echo: true
+  freeze: auto
+---
+
+## Big Data
+
+##
+
+
+

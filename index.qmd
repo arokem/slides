@@ -4,3 +4,5 @@ mainfont: Open Sans
 ---
 
 - About me [\[slides\]](slides/me.html)
+- What should we do about Big Data? [\[slides\]](slides/what-should-we-do.html)
+- Growing a lab [\[slides\]](slides/growing-a-lab.html)
