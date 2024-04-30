@@ -21,6 +21,16 @@
     "text": "Methods for neuroscience data analysis\n\n\n\nhttps://dipy.org\n\n\n\nRichie-Halford et al., 2022\n\n\n\n\nRokem et al., 2024"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ariel Rokem talks/slides",
+    "section": "",
+    "text": "About me [slides]\nWhat should we do about Big Data? [slides]\nGrowing a lab [slides]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -28,13 +38,10 @@
     "text": "About this site"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ariel Rokem talks/slides",
-    "section": "",
-    "text": "About me [slides]",
-    "crumbs": [
-      "Home"
-    ]
+    "objectID": "slides/what-should-we-do.html#big-data",
+    "href": "slides/what-should-we-do.html#big-data",
+    "title": "What should we do with Big Data?",
+    "section": "Big Data",
+    "text": "Big Data"
   }
 ]
