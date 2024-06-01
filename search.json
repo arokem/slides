@@ -21,14 +21,14 @@
     "href": "slides/what-should-we-do.html#frictionless-reproducibility",
     "title": "What should we do with BIG DATA?",
     "section": "Frictionless reproducibility",
-    "text": "Frictionless reproducibility"
+    "text": "Frictionless reproducibility\n\n\n\n\nFR1: Data\nFR2: Re-execution\nFR3: Challenges\n\n\n\n\n\n\n\nDavid Donoho\n\n\n\n\n\n\n\n“Data Science at the Singularity”, 2024"
   },
   {
-    "objectID": "slides/what-should-we-do.html#section",
-    "href": "slides/what-should-we-do.html#section",
+    "objectID": "slides/what-should-we-do.html#challenges-of-big-data",
+    "href": "slides/what-should-we-do.html#challenges-of-big-data",
     "title": "What should we do with BIG DATA?",
-    "section": "",
-    "text": "A\nB\nC\n\n\n\n\n\n\n\nHill, 2023"
+    "section": "Challenges of BIG DATA",
+    "text": "Challenges of BIG DATA\n\nResearch procedures that are routine for small experimental datasets are close to impossible in large datasets\nThese datasets present remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to study the brain basis of individual differences, but care needs to be taken so that these methods are not led astray by confounding information or become too opaque to provide useful information.\nWe have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing interpretable machine learning methods."
   },
   {
     "objectID": "about.html",
