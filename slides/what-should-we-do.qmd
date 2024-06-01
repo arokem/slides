@@ -1,7 +1,10 @@
 ---
-title: "What should we do with Big Data?"
+title: "What should we do with <br>BIG DATA?"
 subtitle: "[https://slides.arokem.org/slides/what-should-we-do.html](https://slides.arokem.org/slides/what-should-we-do.html)"
-affiliation: "University of Washington"
+author: '<a href="https://arokem.org">Ariel Rokem</a>'
+institute: "University of Washington"
+date: "10/6/2024"
+
 format:
   revealjs:
     incremental: true
@@ -9,15 +12,117 @@ format:
     transition: fade
     background-transition: fade
     highlight-style: a11y
+    template-partials:
+      - title-slide.html
 code-link: true
 execute:
   echo: true
   freeze: auto
 ---
+```
+Thanks to advances in data collection technologies, and in the technologies to store and compute on
+data, and thanks to sociotechnical trends towards increased reproducibility and transparency,
+researchers in many fields are increasingly gaining access to large, diverse and complex datasets.
+Through a range of centralized data collection efforts, researchers in neuroscience are now also able
+to access datasets of unprecedented size and diversity. But the question is: what should we do with
+these datasets to maximize their utility? What do these datasets enable that was not possible with
+smaller focused studies? This talk will discuss a few of the challenges that large neuroscience
+datasets present and discuss some of their promise. The talk will revolve around a set of open-source
+software tools that we developed for data-driven analysis of major brain white matter pathways. The
+tools that we have developed address a range of issues: research procedures that are routine for small
+experimental datasets are close to impossible in large datasets, and we have developed scalable
+computing tools, as well as tools that crowd-source research procedures. These datasets present
+remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to
+study the brain basis of individual differences, but care needs to be taken so that these methods are
+not led astray by confounding information or become too opaque to provide useful information. We
+have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing
+interpretable machine learning methods. Finally, I will discuss the challenges of training the next
+generation of researchers to judiciously combine neuroscience knowledge with data science
+methods. I will focus on the NeuroHackademy summer institute for neuroimaging and data science
+that we have established in order to provide such training.
+```
 
-## Big Data
+
+## UW Neuroinformatics R&D Group
+
+:::: {.columns}
+
+::: {.column width="80%"}
+
+::: {.small}
+
+::: {.fragment}
+- Human neuroscience
+  - Connectomics
+  - Development
+  - Aging
+  - Retinal disease
+- Open science
+  - Open-source software
+  - Open data
+- Machine learning and statistics
+:::
+:::
+
+:::
+
+::: {.column width="20%"}
+
+::: {.small}
+
+::: {style="text-align:center;"}
+
+![Kelly Chang](./images/kchang.png){height=100 fig-align="center"}
+
+![McKenzie Hagen](./images/mhagen.png){height=100 fig-align="center"}
+
+![John Kruper](./images/jkruper.png){height=100 fig-align="center"}
+
+![Asa Gilmore](./images/agilmore.png){height=100 fig-align="center"}
+
+::: {style="font-size: 18px;"}
+Teresa Gomez
+:::
+
+:::
+
+:::
+
+:::
+
+::::
+
+
+
+## Frictionless reproducibility
+
 
 ##
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+::: {.small}
+- A
+- B
+- C
+:::
+
+:::
+
+::: {.column width="40%"}
+![](./images/arokem.png)
+:::
+
+::::
+
+
+::: {.tiny}
+Hill, 2023
+
+:::
+
 
 
 
