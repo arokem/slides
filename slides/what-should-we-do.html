@@ -8,9 +8,11 @@
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.553">
+  <meta name="generator" content="quarto-1.4.554">
 
-  <title>Ariel Rokem talks/slides - What should we do with Big Data?</title>
+  <meta name="author" content="Ariel Rokem">
+  <meta name="dcterms.date" content="2024-10-06">
+  <title>Ariel Rokem talks/slides - What should we do with BIG DATA?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -324,19 +326,116 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">What should we do with Big Data?</h1>
-  <p class="subtitle"><a href="https://slides.arokem.org/slides/what-should-we-do.html">https://slides.arokem.org/slides/what-should-we-do.html</a></p>
-
-<div class="quarto-title-authors">
-</div>
+<section id="title-slide" class="center">
+  <center><h1 class="title">What should we do with <br>BIG DATA?</h1></center>
+  <center><p class="author"><a href="https://arokem.org">Ariel Rokem</a></p></center>
+  <center><small><p class="institute">University of Washington</p></small></center>
+  <center><small><p class="date">2024-10-06</p></small></center>
+  <center><small><p class="subtitle"><a href="https://slides.arokem.org/slides/what-should-we-do.html">https://slides.arokem.org/slides/what-should-we-do.html</a></p></small></center>
 
 </section>
-<section id="big-data" class="slide level2">
-<h2>Big Data</h2>
+<section class="slide level2">
+
+<pre><code>Thanks to advances in data collection technologies, and in the technologies to store and compute on
+data, and thanks to sociotechnical trends towards increased reproducibility and transparency,
+researchers in many fields are increasingly gaining access to large, diverse and complex datasets.
+Through a range of centralized data collection efforts, researchers in neuroscience are now also able
+to access datasets of unprecedented size and diversity. But the question is: what should we do with
+these datasets to maximize their utility? What do these datasets enable that was not possible with
+smaller focused studies? This talk will discuss a few of the challenges that large neuroscience
+datasets present and discuss some of their promise. The talk will revolve around a set of open-source
+software tools that we developed for data-driven analysis of major brain white matter pathways. The
+tools that we have developed address a range of issues: research procedures that are routine for small
+experimental datasets are close to impossible in large datasets, and we have developed scalable
+computing tools, as well as tools that crowd-source research procedures. These datasets present
+remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to
+study the brain basis of individual differences, but care needs to be taken so that these methods are
+not led astray by confounding information or become too opaque to provide useful information. We
+have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing
+interpretable machine learning methods. Finally, I will discuss the challenges of training the next
+generation of researchers to judiciously combine neuroscience knowledge with data science
+methods. I will focus on the NeuroHackademy summer institute for neuroimaging and data science
+that we have established in order to provide such training.</code></pre>
+</section>
+<section id="uw-neuroinformatics-rd-group" class="slide level2">
+<h2>UW Neuroinformatics R&amp;D Group</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<div class="small">
+<div class="fragment">
+<ul>
+<li class="fragment">Human neuroscience
+<ul>
+<li class="fragment">Connectomics</li>
+<li class="fragment">Development</li>
+<li class="fragment">Aging</li>
+<li class="fragment">Retinal disease</li>
+</ul></li>
+<li class="fragment">Open science
+<ul>
+<li class="fragment">Open-source software</li>
+<li class="fragment">Open data</li>
+</ul></li>
+<li class="fragment">Machine learning and statistics</li>
+</ul>
+</div>
+</div>
+</div><div class="column" style="width:20%;">
+<div class="small">
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/kchang.png" height="100"></p>
+<figcaption>Kelly Chang</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/mhagen.png" height="100"></p>
+<figcaption>McKenzie Hagen</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/jkruper.png" height="100"></p>
+<figcaption>John Kruper</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/agilmore.png" height="100"></p>
+<figcaption>Asa Gilmore</figcaption>
+</figure>
+</div>
+<div style="font-size: 18px;">
+<p>Teresa Gomez</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="frictionless-reproducibility" class="slide level2">
+<h2>Frictionless reproducibility</h2>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="small">
+<ul>
+<li class="fragment">A</li>
+<li class="fragment">B</li>
+<li class="fragment">C</li>
+</ul>
+</div>
+</div><div class="column" style="width:40%;">
+<p><img data-src="./images/arokem.png"></p>
+</div>
+</div>
+<div class="tiny">
+<p>Hill, 2023</p>
+</div>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://arokem.github.io/talks/slides/me.html</loc>
-    <lastmod>2024-04-30T20:46:28.361Z</lastmod>
-  </url>
-  <url>
     <loc>https://arokem.github.io/talks/index.html</loc>
-    <lastmod>2024-04-30T20:46:27.753Z</lastmod>
-  </url>
-  <url>
-    <loc>https://arokem.github.io/talks/about.html</loc>
-    <lastmod>2024-04-30T20:46:27.753Z</lastmod>
+    <lastmod>2024-06-01T04:47:01.981Z</lastmod>
   </url>
   <url>
     <loc>https://arokem.github.io/talks/slides/what-should-we-do.html</loc>
-    <lastmod>2024-04-30T20:46:28.361Z</lastmod>
+    <lastmod>2024-06-01T04:47:02.597Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arokem.github.io/talks/about.html</loc>
+    <lastmod>2024-06-01T04:47:01.981Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arokem.github.io/talks/slides/me.html</loc>
+    <lastmod>2024-06-01T04:47:02.597Z</lastmod>
   </url>
 </urlset>

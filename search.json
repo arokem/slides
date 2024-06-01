@@ -1,5 +1,43 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ariel Rokem talks/slides",
+    "section": "",
+    "text": "About me [slides]\nWhat should we do about Big Data? [slides]\nGrowing a lab [slides]",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#uw-neuroinformatics-rd-group",
+    "href": "slides/what-should-we-do.html#uw-neuroinformatics-rd-group",
+    "title": "What should we do with BIG DATA?",
+    "section": "UW Neuroinformatics R&D Group",
+    "text": "UW Neuroinformatics R&D Group\n\n\n\n\n\nHuman neuroscience\n\nConnectomics\nDevelopment\nAging\nRetinal disease\n\nOpen science\n\nOpen-source software\nOpen data\n\nMachine learning and statistics\n\n\n\n\n\n\n\n\n\nKelly Chang\n\n\n\n\n\nMcKenzie Hagen\n\n\n\n\n\nJohn Kruper\n\n\n\n\n\nAsa Gilmore\n\n\n\nTeresa Gomez"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#frictionless-reproducibility",
+    "href": "slides/what-should-we-do.html#frictionless-reproducibility",
+    "title": "What should we do with BIG DATA?",
+    "section": "Frictionless reproducibility",
+    "text": "Frictionless reproducibility"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#section",
+    "href": "slides/what-should-we-do.html#section",
+    "title": "What should we do with BIG DATA?",
+    "section": "",
+    "text": "A\nB\nC\n\n\n\n\n\n\n\nHill, 2023"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "slides/me.html#neural-correlates-of-reading-ability",
     "href": "slides/me.html#neural-correlates-of-reading-ability",
     "title": "Hello 👋",
@@ -19,29 +57,5 @@
     "title": "Hello 👋",
     "section": "Methods for neuroscience data analysis",
     "text": "Methods for neuroscience data analysis\n\n\n\nhttps://dipy.org\n\n\n\nRichie-Halford et al., 2022\n\n\n\n\nRokem et al., 2024"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ariel Rokem talks/slides",
-    "section": "",
-    "text": "About me [slides]\nWhat should we do about Big Data? [slides]\nGrowing a lab [slides]",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "slides/what-should-we-do.html#big-data",
-    "href": "slides/what-should-we-do.html#big-data",
-    "title": "What should we do with Big Data?",
-    "section": "Big Data",
-    "text": "Big Data"
   }
 ]
