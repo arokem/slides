@@ -19,7 +19,8 @@ execute:
   echo: true
   freeze: auto
 ---
-```
+
+<!--
 Thanks to advances in data collection technologies, and in the technologies to store and compute on
 data, and thanks to sociotechnical trends towards increased reproducibility and transparency,
 researchers in many fields are increasingly gaining access to large, diverse and complex datasets.
@@ -40,7 +41,7 @@ interpretable machine learning methods. Finally, I will discuss the challenges o
 generation of researchers to judiciously combine neuroscience knowledge with data science
 methods. I will focus on the NeuroHackademy summer institute for neuroimaging and data science
 that we have established in order to provide such training.
-```
+-->
 
 
 ## UW Neuroinformatics R&D Group
@@ -97,32 +98,37 @@ Teresa Gomez
 ## Frictionless reproducibility
 
 
-##
-
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="80%"}
 
 ::: {.small}
-- A
-- B
-- C
+
+- FR1: Data
+- FR2: Re-execution
+- FR3: Challenges
 :::
 
 :::
 
-::: {.column width="40%"}
-![](./images/arokem.png)
+::: {.column width="20%"}
+::: {style="text-align:center;"}
+![David Donoho](./images/donoho.png){height=100 fig-align="center"}
+:::
 :::
 
 ::::
 
-
+::: {style="position: absolute; bottom: 80px; left: 0;"}
 ::: {.tiny}
-Hill, 2023
-
+["Data Science at the Singularity", 2024](https://hdsr.mitpress.mit.edu/pub/g9mau4m0/release/2)
+:::
 :::
 
 
 
-
+## Challenges of BIG DATA
+- Research procedures that are routine for small experimental datasets are close to impossible in large datasets
+- These datasets present remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to study the brain basis of individual differences, but care needs to be taken so that these methods are not led astray by confounding information or become too opaque to provide useful information.
+-  We have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing
+interpretable machine learning methods.
