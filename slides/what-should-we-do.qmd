@@ -4,7 +4,9 @@ subtitle: "[https://slides.arokem.org/slides/what-should-we-do.html](https://sli
 author: '<a href="https://arokem.org">Ariel Rokem</a>'
 institute: "University of Washington"
 date: "10/6/2024"
-
+title-slide-attributes:
+  data-background-image: images/rainier.jpeg
+  data-background-opacity: "0.3"
 format:
   revealjs:
     incremental: true
@@ -19,6 +21,236 @@ execute:
   echo: true
   freeze: auto
 ---
+
+## Neuroinformatics R&D Group {background-image="images/rainier.jpeg" background-opacity="0.1"}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+::: {.small}
+
+::: {style="text-align:left;"}
+
+![Kelly Chang](./images/kchang.png){height=100 fig-align="left"}
+
+![McKenzie Hagen](./images/mhagen.png){height=100 fig-align="left"}
+
+![John Kruper](./images/jkruper.png){height=100 fig-align="left"}
+
+![Asa Gilmore](./images/agilmore.png){height=100 fig-align="left"}
+
+::: {style="font-size: 18px;"}
+Teresa Gomez
+:::
+
+:::
+
+:::
+
+:::
+
+
+::: {.column width="80%"}
+
+::: {style="position: absolute; top: 200px; left: 400px;"}
+::: {.fragment}
+```{mermaid}
+%%| echo: false
+%%| fig-width: 6.5
+flowchart LR
+  HN((Human Neuroscience))
+```
+:::
+:::
+
+::: {style="position: absolute; top: 320px; left: 500px;"}
+::: {.fragment}
+```{mermaid}
+%%| echo: false
+%%| fig-width: 6.5
+flowchart LR
+  ML((Machine learning))
+```
+:::
+:::
+
+::: {style="position: absolute; top: 350px; left: 400px;"}
+::: {.fragment}
+```{mermaid}
+%%| echo: false
+flowchart LR
+  ML((Open science))
+```
+:::
+:::
+
+
+
+<!--
+
+::: {.fragment}
+```{mermaid}
+%%| echo: false
+flowchart LR
+  NR{NRDG}
+  NR --> HN(Human Neuroscience)
+  HN --> CN{Connectomics}
+  CN --> DV([Development])
+  CN --> AG([Aging])
+  CN --> RD([Retinal disease])
+  NR --> OS(Open Science)
+  OS --> OD([Open data])
+  OS --> OSS{Open-source software}
+  NR --> ML(Machine learning)
+  ML --> OSS
+  OSS --> CN
+  OD --> CN
+```
+:::
+
+:::{.fragment}
+-->
+
+
+[https://neuroinformatics.uw.edu](https://neuroinformatics.uw.edu)
+
+:::
+:::
+
+::::
+
+## BIG DATA in neuroscience
+
+![](images/observatory.png){height=600}
+
+:::{.tiny}
+Image credit: [https://www.thebetterindia.com/90353/india-beautiful-astronomical-observatories/](https://www.thebetterindia.com/90353/india-beautiful-astronomical-observatories/)
+
+:::
+
+
+
+
+## Brain observatories
+
+::: {.fragment}
+::: {style="position: absolute; top: 80px; left: 0px;"}
+![N=1,200](images/hcp.png){height=100 fig-align="center"}
+:::
+:::
+
+::: {.fragment}
+::: {style="position: absolute; top: 80px; left: 400px;"}
+![N=800](images/dhcp.png){height=100 fig-align="center"}
+:::
+:::
+
+
+::: {.fragment}
+::: {style="position: absolute; top: 300px; left: 0px;"}
+![N=700](images/camcan.png){height=200 fig-align="center"}
+:::
+:::
+
+::: {.fragment}
+::: {style="position: absolute; top: 300px; left: 300px;"}
+![N=5,000](images/hbn.png){height=100 fig-align="center"}
+:::
+:::
+
+::: {.fragment}
+::: {style="position: absolute; top: 300px; left: 600px;"}
+![N=10,000](images/abcd.png){height=150 fig-align="center"}
+:::
+:::
+
+::: {.fragment}
+::: {style="position: absolute; top: 500px; left: 300px;"}
+![N=500,000](images/ukbb.png){height=150 fig-align="center;"}
+:::
+:::
+
+
+
+
+
+
+## The white matter matters
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {style="text-align:right;"}
+
+![From Catani and ffytche, 2015](./images/nineteenth-century.png)
+:::
+:::
+
+::: {.column width="50%"}
+
+![](./images/seung.png){height=500 fig-align="right"}
+
+:::
+
+::::
+
+::: {.hidden}
+
+## Frictionless reproducibility
+
+
+:::: {.columns}
+
+::: {.column width="80%"}
+
+::: {.small}
+
+data sharing, code sharing, and benchmark data competition
+
+- FR1: Data sharing
+- FR2: Code sharing
+- FR3: The common task framework
+- Example: Empirical machine learning
+  - Rapid and accelerating progress since ~2012
+  - Data: Imagenet, Common Crawl, etc.
+  - Code:
+    - Scientific Python ecosystem
+    - Theano, TensorFlow, Pytorch, Hugging face, etc.
+  - Common tasks: Imagenet, Kaggle, etc.
+- Another example: COVID mRNA vaccines
+  - Data: COVID19 sequence available
+  -
+:::
+
+
+
+:::
+
+::: {.column width="20%"}
+::: {style="text-align:center;"}
+![David Donoho](./images/donoho.png){height=100 fig-align="center"}
+:::
+:::
+
+::::
+
+::: {style="position: absolute; bottom: 80px; left: 0;"}
+::: {.tiny}
+["Data Science at the Singularity", 2024](https://hdsr.mitpress.mit.edu/pub/g9mau4m0/release/2)
+:::
+:::
+
+:::
+
+
+## Challenges of BIG DATA
+- Research procedures that are routine for small experimental datasets are close to impossible in large datasets
+- These datasets present remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to study the brain basis of individual differences, but care needs to be taken so that these methods are not led astray by confounding information or become too opaque to provide useful information.
+-  We have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing
+interpretable machine learning methods.
+
+
 
 <!--
 Thanks to advances in data collection technologies, and in the technologies to store and compute on
@@ -42,93 +274,3 @@ generation of researchers to judiciously combine neuroscience knowledge with dat
 methods. I will focus on the NeuroHackademy summer institute for neuroimaging and data science
 that we have established in order to provide such training.
 -->
-
-
-## UW Neuroinformatics R&D Group
-
-:::: {.columns}
-
-::: {.column width="80%"}
-
-::: {.small}
-
-::: {.fragment}
-- Human neuroscience
-  - Connectomics
-  - Development
-  - Aging
-  - Retinal disease
-- Open science
-  - Open-source software
-  - Open data
-- Machine learning and statistics
-:::
-:::
-
-:::
-
-::: {.column width="20%"}
-
-::: {.small}
-
-::: {style="text-align:center;"}
-
-![Kelly Chang](./images/kchang.png){height=100 fig-align="center"}
-
-![McKenzie Hagen](./images/mhagen.png){height=100 fig-align="center"}
-
-![John Kruper](./images/jkruper.png){height=100 fig-align="center"}
-
-![Asa Gilmore](./images/agilmore.png){height=100 fig-align="center"}
-
-::: {style="font-size: 18px;"}
-Teresa Gomez
-:::
-
-:::
-
-:::
-
-:::
-
-::::
-
-
-
-## Frictionless reproducibility
-
-
-:::: {.columns}
-
-::: {.column width="80%"}
-
-::: {.small}
-
-- FR1: Data
-- FR2: Re-execution
-- FR3: Challenges
-:::
-
-:::
-
-::: {.column width="20%"}
-::: {style="text-align:center;"}
-![David Donoho](./images/donoho.png){height=100 fig-align="center"}
-:::
-:::
-
-::::
-
-::: {style="position: absolute; bottom: 80px; left: 0;"}
-::: {.tiny}
-["Data Science at the Singularity", 2024](https://hdsr.mitpress.mit.edu/pub/g9mau4m0/release/2)
-:::
-:::
-
-
-
-## Challenges of BIG DATA
-- Research procedures that are routine for small experimental datasets are close to impossible in large datasets
-- These datasets present remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to study the brain basis of individual differences, but care needs to be taken so that these methods are not led astray by confounding information or become too opaque to provide useful information.
--  We have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing
-interpretable machine learning methods.

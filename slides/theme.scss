@@ -4,13 +4,13 @@
 @import 'https://fonts.googleapis.com/css2?family=Open+Sans';
 
 $font-family-sans-serif: "Open Sans", sans-serif;
-$presentation-heading-color: #00589b;
-$presentation-sub-title-color: #00589b;
+$presentation-heading-color: #32006e;
+$presentation-sub-title-color: #4b2e83;
 $presentation-title-slide-text-align: "center";
 $presentation-subtitle-slide-text-align: "center";
 $presentation-block-margin: 0.1em;
 $code-block-font-size: 0.6em;
-$code-color: #5f5f5f;
+$code-color: #85754d;
 $presentation-h2-font-size: 1.2em;
 $presentation-h1-font-size: 1.8em;
 
@@ -18,7 +18,7 @@ $presentation-h1-font-size: 1.8em;
 
 .reveal .custom-title {
   position: absolute;
-  color: #00589b;
+  color: #32006e;
   font-size: 3em;
   text-align: right;
   right: 20px;
