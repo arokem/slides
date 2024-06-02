@@ -52,9 +52,8 @@ Teresa Gomez
 
 
 ::: {.column width="80%"}
-
-::: {style="position: absolute; top: 200px; left: 400px;"}
 ::: {.fragment}
+::: {style="position: absolute; top: 200px; left: 400px;"}
 ```{mermaid}
 %%| echo: false
 %%| fig-width: 6.5
@@ -62,30 +61,25 @@ flowchart LR
   HN((Human Neuroscience))
 ```
 :::
-:::
 
-::: {style="position: absolute; top: 320px; left: 500px;"}
-::: {.fragment}
+::: {style="position: absolute; top: 340px; left: 480px;"}
 ```{mermaid}
 %%| echo: false
 %%| fig-width: 6.5
 flowchart LR
-  ML((Machine learning))
+  ML((Machine learning and \n statistics))
 ```
 :::
-:::
 
-::: {style="position: absolute; top: 350px; left: 400px;"}
-::: {.fragment}
+::: {style="position: absolute; top: 340px; left: 320px;"}
 ```{mermaid}
 %%| echo: false
 flowchart LR
-  ML((Open science))
+  ML((Open data and \n open-source software))
 ```
 :::
+
 :::
-
-
 
 <!--
 
