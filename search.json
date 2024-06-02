@@ -14,7 +14,7 @@
     "href": "slides/what-should-we-do.html#neuroinformatics-rd-group",
     "title": "What should we do with BIG DATA?",
     "section": "Neuroinformatics R&D Group",
-    "text": "Neuroinformatics R&D Group\n\n\n\n\n\n\n\nKelly Chang\n\n\n\n\n\nMcKenzie Hagen\n\n\n\n\n\nJohn Kruper\n\n\n\n\n\nAsa Gilmore\n\n\n\nTeresa Gomez\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  HN((Human Neuroscience))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  ML((Machine learning))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  ML((Open science))\n\n\n\n\n\n\n\n\n\nhttps://neuroinformatics.uw.edu\n\n\n::::"
+    "text": "Neuroinformatics R&D Group\n\n\n\n\n\n\n\nKelly Chang\n\n\n\n\n\nMcKenzie Hagen\n\n\n\n\n\nJohn Kruper\n\n\n\n\n\nAsa Gilmore\n\n\n\nTeresa Gomez\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  HN((Human Neuroscience))\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  ML((Machine learning and \\n statistics))\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  ML((Open data and \\n open-source software))\n\n\n\n\n\n\n\n\n\nhttps://neuroinformatics.uw.edu\n\n\n::::"
   },
   {
     "objectID": "slides/what-should-we-do.html#big-data-in-neuroscience",
