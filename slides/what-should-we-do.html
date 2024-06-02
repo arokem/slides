@@ -321,12 +321,15 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="center">
+<section id="title-slide" data-background-image="images/rainier.jpeg" data-background-opacity="0.3" class="center">
   <center><h1 class="title">What should we do with <br>BIG DATA?</h1></center>
   <center><p class="author"><a href="https://arokem.org">Ariel Rokem</a></p></center>
   <center><small><p class="institute">University of Washington</p></small></center>
@@ -334,76 +337,31 @@
   <center><small><p class="subtitle"><a href="https://slides.arokem.org/slides/what-should-we-do.html">https://slides.arokem.org/slides/what-should-we-do.html</a></p></small></center>
 
 </section>
-<section class="slide level2">
-
-<!--
-Thanks to advances in data collection technologies, and in the technologies to store and compute on
-data, and thanks to sociotechnical trends towards increased reproducibility and transparency,
-researchers in many fields are increasingly gaining access to large, diverse and complex datasets.
-Through a range of centralized data collection efforts, researchers in neuroscience are now also able
-to access datasets of unprecedented size and diversity. But the question is: what should we do with
-these datasets to maximize their utility? What do these datasets enable that was not possible with
-smaller focused studies? This talk will discuss a few of the challenges that large neuroscience
-datasets present and discuss some of their promise. The talk will revolve around a set of open-source
-software tools that we developed for data-driven analysis of major brain white matter pathways. The
-tools that we have developed address a range of issues: research procedures that are routine for small
-experimental datasets are close to impossible in large datasets, and we have developed scalable
-computing tools, as well as tools that crowd-source research procedures. These datasets present
-remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to
-study the brain basis of individual differences, but care needs to be taken so that these methods are
-not led astray by confounding information or become too opaque to provide useful information. We
-have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing
-interpretable machine learning methods. Finally, I will discuss the challenges of training the next
-generation of researchers to judiciously combine neuroscience knowledge with data science
-methods. I will focus on the NeuroHackademy summer institute for neuroimaging and data science
-that we have established in order to provide such training.
--->
-</section>
-<section id="uw-neuroinformatics-rd-group" class="slide level2">
-<h2>UW Neuroinformatics R&amp;D Group</h2>
+<section id="neuroinformatics-rd-group" class="slide level2" data-background-image="images/rainier.jpeg" data-background-opacity="0.1">
+<h2>Neuroinformatics R&amp;D Group</h2>
 <div class="columns">
-<div class="column" style="width:80%;">
+<div class="column" style="width:20%;">
 <div class="small">
-<div class="fragment">
-<ul>
-<li class="fragment">Human neuroscience
-<ul>
-<li class="fragment">Connectomics</li>
-<li class="fragment">Development</li>
-<li class="fragment">Aging</li>
-<li class="fragment">Retinal disease</li>
-</ul></li>
-<li class="fragment">Open science
-<ul>
-<li class="fragment">Open-source software</li>
-<li class="fragment">Open data</li>
-</ul></li>
-<li class="fragment">Machine learning and statistics</li>
-</ul>
-</div>
-</div>
-</div><div class="column" style="width:20%;">
-<div class="small">
-<div style="text-align:center;">
-<div class="quarto-figure quarto-figure-center">
+<div style="text-align:left;">
+<div class="quarto-figure quarto-figure-left">
 <figure>
 <p><img data-src="./images/kchang.png" height="100"></p>
 <figcaption>Kelly Chang</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure>
 <p><img data-src="./images/mhagen.png" height="100"></p>
 <figcaption>McKenzie Hagen</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure>
 <p><img data-src="./images/jkruper.png" height="100"></p>
 <figcaption>John Kruper</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure>
 <p><img data-src="./images/agilmore.png" height="100"></p>
 <figcaption>Asa Gilmore</figcaption>
@@ -414,18 +372,220 @@ that we have established in order to provide such training.
 </div>
 </div>
 </div>
+</div><div class="column" style="width:80%;">
+<div style="position: absolute; top: 200px; left: 400px;">
+<div class="fragment">
+<div class="cell" data-reveal="true" data-fig-width="6.5" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  HN((Human Neuroscience))
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="position: absolute; top: 320px; left: 500px;">
+<div class="fragment">
+<div class="cell" data-reveal="true" data-fig-width="6.5" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  ML((Machine learning))
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="position: absolute; top: 350px; left: 400px;">
+<div class="fragment">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  ML((Open science))
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--
+
+::: {.fragment}
+
+
+:::{.cell reveal=true layout-align="default"}
+
+:::{.cell-output-display}
+
+:::{}
+`<figure class=''>`{=html}
+
+:::{}
+
+<pre class="mermaid mermaid-js">flowchart LR
+  NR{NRDG}
+  NR --&gt; HN(Human Neuroscience)
+  HN --&gt; CN{Connectomics}
+  CN --&gt; DV([Development])
+  CN --&gt; AG([Aging])
+  CN --&gt; RD([Retinal disease])
+  NR --&gt; OS(Open Science)
+  OS --&gt; OD([Open data])
+  OS --&gt; OSS{Open-source software}
+  NR --&gt; ML(Machine learning)
+  ML --&gt; OSS
+  OSS --&gt; CN
+  OD --&gt; CN
+</pre>
+:::
+`</figure>`{=html}
+:::
+:::
+:::
+
+
+:::
+
+:::{.fragment}
+-->
+<p><a href="https://neuroinformatics.uw.edu">https://neuroinformatics.uw.edu</a></p>
+</div>
+</div>
+<p>::::</p>
+</section>
+<section id="big-data-in-neuroscience" class="slide level2">
+<h2>BIG DATA in neuroscience</h2>
+<p><img data-src="images/observatory.png" height="600"></p>
+<div class="tiny">
+<p>Image credit: <a href="https://www.thebetterindia.com/90353/india-beautiful-astronomical-observatories/">https://www.thebetterindia.com/90353/india-beautiful-astronomical-observatories/</a></p>
+</div>
+</section>
+<section id="brain-observatories" class="slide level2">
+<h2>Brain observatories</h2>
+<div class="fragment">
+<div style="position: absolute; top: 80px; left: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/hcp.png" height="100"></p>
+<figcaption>N=1,200</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="position: absolute; top: 80px; left: 400px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dhcp.png" height="100"></p>
+<figcaption>N=800</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="position: absolute; top: 300px; left: 0px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/camcan.png" height="200"></p>
+<figcaption>N=700</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="position: absolute; top: 300px; left: 300px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/hbn.png" height="100"></p>
+<figcaption>N=5,000</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="position: absolute; top: 300px; left: 600px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/abcd.png" height="150"></p>
+<figcaption>N=10,000</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="position: absolute; top: 500px; left: 300px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/ukbb.png" height="150"></p>
+<figcaption>N=500,000</figcaption>
+</figure>
+</div>
 </div>
 </div>
 </section>
-<section id="frictionless-reproducibility" class="slide level2">
+<section id="the-white-matter-matters" class="slide level2">
+<h2>The white matter matters</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="text-align:right;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/nineteenth-century.png"></p>
+<figcaption>From Catani and ffytche, 2015</figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="./images/seung.png" class="quarto-figure quarto-figure-right" height="500"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="frictionless-reproducibility" class="slide level2 hidden">
 <h2>Frictionless reproducibility</h2>
 <div class="columns">
 <div class="column" style="width:80%;">
 <div class="small">
+<p>data sharing, code sharing, and benchmark data competition</p>
 <ul>
-<li class="fragment">FR1: Data</li>
-<li class="fragment">FR2: Re-execution</li>
-<li class="fragment">FR3: Challenges</li>
+<li class="fragment">FR1: Data sharing</li>
+<li class="fragment">FR2: Code sharing</li>
+<li class="fragment">FR3: The common task framework</li>
+<li class="fragment">Example: Empirical machine learning
+<ul>
+<li class="fragment">Rapid and accelerating progress since ~2012</li>
+<li class="fragment">Data: Imagenet, Common Crawl, etc.</li>
+<li class="fragment">Code:
+<ul>
+<li class="fragment">Scientific Python ecosystem</li>
+<li class="fragment">Theano, TensorFlow, Pytorch, Hugging face, etc.</li>
+</ul></li>
+<li class="fragment">Common tasks: Imagenet, Kaggle, etc.</li>
+</ul></li>
+<li class="fragment">Another example: COVID mRNA vaccines
+<ul>
+<li class="fragment">Data: COVID19 sequence available</li>
+<li class="fragment"></li>
+</ul></li>
 </ul>
 </div>
 </div><div class="column" style="width:20%;">
@@ -452,6 +612,28 @@ that we have established in order to provide such training.
 <li class="fragment">These datasets present remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to study the brain basis of individual differences, but care needs to be taken so that these methods are not led astray by confounding information or become too opaque to provide useful information.</li>
 <li class="fragment">We have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing interpretable machine learning methods.</li>
 </ul>
+<!--
+Thanks to advances in data collection technologies, and in the technologies to store and compute on
+data, and thanks to sociotechnical trends towards increased reproducibility and transparency,
+researchers in many fields are increasingly gaining access to large, diverse and complex datasets.
+Through a range of centralized data collection efforts, researchers in neuroscience are now also able
+to access datasets of unprecedented size and diversity. But the question is: what should we do with
+these datasets to maximize their utility? What do these datasets enable that was not possible with
+smaller focused studies? This talk will discuss a few of the challenges that large neuroscience
+datasets present and discuss some of their promise. The talk will revolve around a set of open-source
+software tools that we developed for data-driven analysis of major brain white matter pathways. The
+tools that we have developed address a range of issues: research procedures that are routine for small
+experimental datasets are close to impossible in large datasets, and we have developed scalable
+computing tools, as well as tools that crowd-source research procedures. These datasets present
+remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to
+study the brain basis of individual differences, but care needs to be taken so that these methods are
+not led astray by confounding information or become too opaque to provide useful information. We
+have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing
+interpretable machine learning methods. Finally, I will discuss the challenges of training the next
+generation of researchers to judiciously combine neuroscience knowledge with data science
+methods. I will focus on the NeuroHackademy summer institute for neuroimaging and data science
+that we have established in order to provide such training.
+-->
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

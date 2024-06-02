@@ -10,18 +10,39 @@
     ]
   },
   {
-    "objectID": "slides/what-should-we-do.html#uw-neuroinformatics-rd-group",
-    "href": "slides/what-should-we-do.html#uw-neuroinformatics-rd-group",
+    "objectID": "slides/what-should-we-do.html#neuroinformatics-rd-group",
+    "href": "slides/what-should-we-do.html#neuroinformatics-rd-group",
     "title": "What should we do with BIG DATA?",
-    "section": "UW Neuroinformatics R&D Group",
-    "text": "UW Neuroinformatics R&D Group\n\n\n\n\n\nHuman neuroscience\n\nConnectomics\nDevelopment\nAging\nRetinal disease\n\nOpen science\n\nOpen-source software\nOpen data\n\nMachine learning and statistics\n\n\n\n\n\n\n\n\n\nKelly Chang\n\n\n\n\n\nMcKenzie Hagen\n\n\n\n\n\nJohn Kruper\n\n\n\n\n\nAsa Gilmore\n\n\n\nTeresa Gomez"
+    "section": "Neuroinformatics R&D Group",
+    "text": "Neuroinformatics R&D Group\n\n\n\n\n\n\n\nKelly Chang\n\n\n\n\n\nMcKenzie Hagen\n\n\n\n\n\nJohn Kruper\n\n\n\n\n\nAsa Gilmore\n\n\n\nTeresa Gomez\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  HN((Human Neuroscience))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  ML((Machine learning))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  ML((Open science))\n\n\n\n\n\n\n\n\n\nhttps://neuroinformatics.uw.edu\n\n\n::::"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#big-data-in-neuroscience",
+    "href": "slides/what-should-we-do.html#big-data-in-neuroscience",
+    "title": "What should we do with BIG DATA?",
+    "section": "BIG DATA in neuroscience",
+    "text": "BIG DATA in neuroscience\n\n\nImage credit: https://www.thebetterindia.com/90353/india-beautiful-astronomical-observatories/"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#brain-observatories",
+    "href": "slides/what-should-we-do.html#brain-observatories",
+    "title": "What should we do with BIG DATA?",
+    "section": "Brain observatories",
+    "text": "Brain observatories\n\n\n\n\n\nN=1,200\n\n\n\n\n\n\n\n\n\nN=800\n\n\n\n\n\n\n\n\n\nN=700\n\n\n\n\n\n\n\n\n\nN=5,000\n\n\n\n\n\n\n\n\n\nN=10,000\n\n\n\n\n\n\n\n\n\nN=500,000"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#the-white-matter-matters",
+    "href": "slides/what-should-we-do.html#the-white-matter-matters",
+    "title": "What should we do with BIG DATA?",
+    "section": "The white matter matters",
+    "text": "The white matter matters\n\n\n\n\n\n\nFrom Catani and ffytche, 2015"
   },
   {
     "objectID": "slides/what-should-we-do.html#frictionless-reproducibility",
     "href": "slides/what-should-we-do.html#frictionless-reproducibility",
     "title": "What should we do with BIG DATA?",
     "section": "Frictionless reproducibility",
-    "text": "Frictionless reproducibility\n\n\n\n\nFR1: Data\nFR2: Re-execution\nFR3: Challenges\n\n\n\n\n\n\n\nDavid Donoho\n\n\n\n\n\n\n\n“Data Science at the Singularity”, 2024"
+    "text": "Frictionless reproducibility\n\n\n\ndata sharing, code sharing, and benchmark data competition\n\nFR1: Data sharing\nFR2: Code sharing\nFR3: The common task framework\nExample: Empirical machine learning\n\nRapid and accelerating progress since ~2012\nData: Imagenet, Common Crawl, etc.\nCode:\n\nScientific Python ecosystem\nTheano, TensorFlow, Pytorch, Hugging face, etc.\n\nCommon tasks: Imagenet, Kaggle, etc.\n\nAnother example: COVID mRNA vaccines\n\nData: COVID19 sequence available\n\n\n\n\n\n\n\n\n\nDavid Donoho\n\n\n\n\n\n\n\n“Data Science at the Singularity”, 2024"
   },
   {
     "objectID": "slides/what-should-we-do.html#challenges-of-big-data",
