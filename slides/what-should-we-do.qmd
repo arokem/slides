@@ -1,6 +1,6 @@
 ---
 title: "What should we do with <br>BIG DATA?"
-subtitle: "[https://slides.arokem.org/slides/what-should-we-do.html](https://slides.arokem.org/slides/what-should-we-do.html)"
+subtitle: "[https://arokem.github.io/slides/what-should-we-do.html](https://slides.arokem.org/slides/what-should-we-do.html)"
 author: '<a href="https://arokem.org">Ariel Rokem</a>'
 institute: "University of Washington"
 date: "10/6/2024"
@@ -56,7 +56,7 @@ Teresa Gomez
 ::: {style="position: absolute; top: 200px; left: 400px;"}
 ```{mermaid}
 %%| echo: false
-%%| fig-width: 6.5
+%%| fig-width: 8
 flowchart LR
   HN((Human Neuroscience))
 ```
@@ -65,7 +65,7 @@ flowchart LR
 ::: {style="position: absolute; top: 340px; left: 480px;"}
 ```{mermaid}
 %%| echo: false
-%%| fig-width: 6.5
+%%| fig-width: 8
 flowchart LR
   ML((Machine learning and \n statistics))
 ```
@@ -74,6 +74,7 @@ flowchart LR
 ::: {style="position: absolute; top: 340px; left: 320px;"}
 ```{mermaid}
 %%| echo: false
+%%| fig-width: 8
 flowchart LR
   ML((Open data and \n open-source software))
 ```
@@ -81,33 +82,11 @@ flowchart LR
 
 :::
 
-<!--
-
 ::: {.fragment}
-```{mermaid}
-%%| echo: false
-flowchart LR
-  NR{NRDG}
-  NR --> HN(Human Neuroscience)
-  HN --> CN{Connectomics}
-  CN --> DV([Development])
-  CN --> AG([Aging])
-  CN --> RD([Retinal disease])
-  NR --> OS(Open Science)
-  OS --> OD([Open data])
-  OS --> OSS{Open-source software}
-  NR --> ML(Machine learning)
-  ML --> OSS
-  OSS --> CN
-  OD --> CN
-```
-:::
-
-:::{.fragment}
--->
-
 
 [https://neuroinformatics.uw.edu](https://neuroinformatics.uw.edu)
+
+:::
 
 :::
 :::
@@ -122,8 +101,6 @@ flowchart LR
 Image credit: [https://www.thebetterindia.com/90353/india-beautiful-astronomical-observatories/](https://www.thebetterindia.com/90353/india-beautiful-astronomical-observatories/)
 
 :::
-
-
 
 
 ## Brain observatories
@@ -166,10 +143,6 @@ Image credit: [https://www.thebetterindia.com/90353/india-beautiful-astronomical
 :::
 
 
-
-
-
-
 ## The white matter matters
 
 :::: {.columns}
@@ -188,6 +161,33 @@ Image credit: [https://www.thebetterindia.com/90353/india-beautiful-astronomical
 :::
 
 ::::
+
+## The white matter matters
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {style="text-align:right;"}
+
+![](./images/wiki-neuron.png)
+
+:::
+:::
+
+::: {.column width="50%"}
+::: {.fragment}
+::: {style="text-align:right;"}
+
+![](./images/wiki-wm.png)
+:::
+
+:::
+:::
+::::
+
+##
+
+
 
 ::: {.hidden}
 
