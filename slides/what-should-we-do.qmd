@@ -1,6 +1,6 @@
 ---
 title: "What should we do with <br>BIG DATA?"
-subtitle: "[https://arokem.github.io/slides/what-should-we-do.html](https://slides.arokem.org/slides/what-should-we-do.html)"
+subtitle: "[https://arokem.github.io/slides/slides/what-should-we-do.html](https://arokem.github.io/slides/slides/what-should-we-do.html)"
 author: '<a href="https://arokem.org">Ariel Rokem</a>'
 institute: "University of Washington"
 date: "10/6/2024"
@@ -226,6 +226,55 @@ What can we ask with data science?
 ::::
 
 ## Diffusion-weighted MRI
+
+::: {style="position: absolute; top: 100px; left: 20px;"}
+![](./images/dwi-ap.png){height="500"}
+:::
+
+::: {style="position: absolute; top: 100px; left: -100px;"}
+
+```{ojs}
+//| echo: false
+
+Plot.plot({
+  axis: null,
+  x: {domain: [-1, 11]},
+  y: {domain: [-1, 11]},
+  marks: [
+    Plot.arrow(data, {y1: "x1", x1: "y1", y2: "x2", x2: "y2", strokeWidth: 5}),
+          ]})
+
+```
+:::
+
+::: {.fragment}
+::: {style="position: absolute; top: 100px; left: 600px;"}
+![](./images/dwi-rl.png){height="500"}
+:::
+
+::: {style="position: absolute; top: 550px; left: 720px;"}
+
+```{ojs}
+//| echo: false
+data = [
+  {x1: 0, y1: 0, x2:5, y2:0},
+  {x1: 5, y1: 0, x2:0, y2:0},
+]
+
+Plot.plot({
+  axis: null,
+  x: {domain: [-1, 11]},
+  marks: [
+    Plot.arrow(data, {x1: "x1", y1: "y1", x2: "x2", y2: "y2", strokeWidth: 10}),
+          ]})
+
+```
+:::
+
+:::
+
+
+
 
 
 ## Computational dissection
