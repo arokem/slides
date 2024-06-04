@@ -32,6 +32,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #767676;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #767676;  padding-left: 4px; }
+    div.sourceCode
+      { color: #545454; background-color: #fefefe; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #545454; } /* Normal */
+    code span.al { color: #7928a1; } /* Alert */
+    code span.an { color: #696969; } /* Annotation */
+    code span.at { color: #a55a00; } /* Attribute */
+    code span.bn { color: #7928a1; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #d91e18; } /* ControlFlow */
+    code span.ch { color: #008000; } /* Char */
+    code span.cn { color: #d91e18; } /* Constant */
+    code span.co { color: #696969; } /* Comment */
+    code span.cv { color: #696969; font-style: italic; } /* CommentVar */
+    code span.do { color: #696969; font-style: italic; } /* Documentation */
+    code span.dt { color: #7928a1; } /* DataType */
+    code span.dv { color: #7928a1; } /* DecVal */
+    code span.er { color: #7928a1; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #a55a00; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #696969; } /* Information */
+    code span.kw { color: #d91e18; } /* Keyword */
+    code span.op { color: #00769e; } /* Operator */
+    code span.ot { color: #d91e18; } /* Other */
+    code span.pp { color: #7928a1; } /* Preprocessor */
+    code span.sc { color: #00769e; } /* SpecialChar */
+    code span.ss { color: #008000; } /* SpecialString */
+    code span.st { color: #008000; } /* String */
+    code span.va { color: #a55a00; } /* Variable */
+    code span.vs { color: #008000; } /* VerbatimString */
+    code span.wa { color: #696969; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -323,6 +388,8 @@
       margin-right: 0; 
     }
   </style>
+  <script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+  <link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
   <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
   <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
   <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
@@ -336,7 +403,7 @@
   <center><p class="author"><a href="https://arokem.org">Ariel Rokem</a></p></center>
   <center><small><p class="institute">University of Washington</p></small></center>
   <center><small><p class="date">2024-10-06</p></small></center>
-  <center><small><p class="subtitle"><a href="https://slides.arokem.org/slides/what-should-we-do.html">https://arokem.github.io/slides/what-should-we-do.html</a></p></small></center>
+  <center><small><p class="subtitle"><a href="https://arokem.github.io/slides/slides/what-should-we-do.html">https://arokem.github.io/slides/slides/what-should-we-do.html</a></p></small></center>
 
 </section>
 <section id="neuroinformatics-rd-group" class="slide level2" data-background-image="images/rainier.jpeg" data-background-opacity="0.1">
@@ -586,6 +653,59 @@
 </section>
 <section id="diffusion-weighted-mri" class="slide level2">
 <h2>Diffusion-weighted MRI</h2>
+<div style="position: absolute; top: 100px; left: 20px;">
+<p><img data-src="./images/dwi-ap.png" height="500"></p>
+</div>
+<div style="position: absolute; top: 100px; left: -100px;">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="237" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 236;"><span id="cb1-237"><a></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb1-238"><a></a>  <span class="dt">axis</span><span class="op">:</span> <span class="kw">null</span><span class="op">,</span></span>
+<span id="cb1-239"><a></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">1</span><span class="op">,</span> <span class="dv">11</span>]}<span class="op">,</span></span>
+<span id="cb1-240"><a></a>  <span class="dt">y</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">1</span><span class="op">,</span> <span class="dv">11</span>]}<span class="op">,</span></span>
+<span id="cb1-241"><a></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb1-242"><a></a>    Plot<span class="op">.</span><span class="fu">arrow</span>(data<span class="op">,</span> {<span class="dt">y1</span><span class="op">:</span> <span class="st">"x1"</span><span class="op">,</span> <span class="dt">x1</span><span class="op">:</span> <span class="st">"y1"</span><span class="op">,</span> <span class="dt">y2</span><span class="op">:</span> <span class="st">"x2"</span><span class="op">,</span> <span class="dt">x2</span><span class="op">:</span> <span class="st">"y2"</span><span class="op">,</span> <span class="dt">strokeWidth</span><span class="op">:</span> <span class="dv">5</span>})<span class="op">,</span></span>
+<span id="cb1-243"><a></a>          ]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="position: absolute; top: 100px; left: 600px;">
+<p><img data-src="./images/dwi-rl.png" height="500"></p>
+</div>
+<div style="position: absolute; top: 550px; left: 720px;">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="259" data-source-offset="-0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 258;"><span id="cb2-259"><a></a>data <span class="op">=</span> [</span>
+<span id="cb2-260"><a></a>  {<span class="dt">x1</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">y1</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">x2</span><span class="op">:</span><span class="dv">5</span><span class="op">,</span> <span class="dt">y2</span><span class="op">:</span><span class="dv">0</span>}<span class="op">,</span></span>
+<span id="cb2-261"><a></a>  {<span class="dt">x1</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">y1</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">x2</span><span class="op">:</span><span class="dv">0</span><span class="op">,</span> <span class="dt">y2</span><span class="op">:</span><span class="dv">0</span>}<span class="op">,</span></span>
+<span id="cb2-262"><a></a>]</span>
+<span id="cb2-263"><a></a></span>
+<span id="cb2-264"><a></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb2-265"><a></a>  <span class="dt">axis</span><span class="op">:</span> <span class="kw">null</span><span class="op">,</span></span>
+<span id="cb2-266"><a></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="op">-</span><span class="dv">1</span><span class="op">,</span> <span class="dv">11</span>]}<span class="op">,</span></span>
+<span id="cb2-267"><a></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb2-268"><a></a>    Plot<span class="op">.</span><span class="fu">arrow</span>(data<span class="op">,</span> {<span class="dt">x1</span><span class="op">:</span> <span class="st">"x1"</span><span class="op">,</span> <span class="dt">y1</span><span class="op">:</span> <span class="st">"y1"</span><span class="op">,</span> <span class="dt">x2</span><span class="op">:</span> <span class="st">"x2"</span><span class="op">,</span> <span class="dt">y2</span><span class="op">:</span> <span class="st">"y2"</span><span class="op">,</span> <span class="dt">strokeWidth</span><span class="op">:</span> <span class="dv">10</span>})<span class="op">,</span></span>
+<span id="cb2-269"><a></a>          ]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="computational-dissection" class="slide level2">
 <h2>Computational dissection</h2>
@@ -1019,6 +1139,17 @@ that we have established in order to provide such training.
           RevealZoom
         ]
       });
+    </script>
+    <script type="ojs-module-contents">
+    eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuUGxvdC5wbG90KHtcbiAgYXhpczogbnVsbCxcbiAgeDoge2RvbWFpbjogWy0xLCAxMV19LFxuICB5OiB7ZG9tYWluOiBbLTEsIDExXX0sXG4gIG1hcmtzOiBbXG4gICAgUGxvdC5hcnJvdyhkYXRhLCB7eTE6IFwieDFcIiwgeDE6IFwieTFcIiwgeTI6IFwieDJcIiwgeDI6IFwieTJcIiwgc3Ryb2tlV2lkdGg6IDV9KSxcbiAgICAgICAgICBdfSlcblxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiZGF0YSA9IFtcbiAge3gxOiAwLCB5MTogMCwgeDI6NSwgeTI6MH0sXG4gIHt4MTogNSwgeTE6IDAsIHgyOjAsIHkyOjB9LFxuXVxuXG5QbG90LnBsb3Qoe1xuICBheGlzOiBudWxsLFxuICB4OiB7ZG9tYWluOiBbLTEsIDExXX0sXG4gIG1hcmtzOiBbXG4gICAgUGxvdC5hcnJvdyhkYXRhLCB7eDE6IFwieDFcIiwgeTE6IFwieTFcIiwgeDI6IFwieDJcIiwgeTI6IFwieTJcIiwgc3Ryb2tlV2lkdGg6IDEwfSksXG4gICAgICAgICAgXX0pXG5cbiJ9XX0=
+    </script>
+    <script type="module">
+    if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+    window._ojs.paths.runtimeToDoc = "../../slides";
+    window._ojs.paths.runtimeToRoot = "../..";
+    window._ojs.paths.docToRoot = "..";
+    window._ojs.selfContained = false;
+    window._ojs.runtime.interpretFromScriptTags();
     </script>
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
