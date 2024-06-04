@@ -11,11 +11,13 @@ format:
   revealjs:
     incremental: true
     theme: theme.scss
+    auto-play-media: true
     transition: fade
     background-transition: fade
     highlight-style: a11y
     template-partials:
       - title-slide.html
+
 code-link: true
 execute:
   echo: true
@@ -102,7 +104,6 @@ Image credit: [https://www.thebetterindia.com/90353/india-beautiful-astronomical
 
 :::
 
-
 ## Brain observatories
 
 ::: {.fragment}
@@ -142,6 +143,33 @@ Image credit: [https://www.thebetterindia.com/90353/india-beautiful-astronomical
 :::
 :::
 
+## Data-driven discovery ... or "data science"
+
+:::: {.columns}
+
+::: {.column width="80%"}
+> “Jim Gray unveiled a vision of the fourth-paradigm... scientific methodology has evolved into three distinct archetypes: empiricism, theory, and computation. The Fourth Paradigm is an entirely new phase that involves data-intensive practices. Termed “eScience,” this fourth paradigm unites theory, experimentation, and computation”
+
+::: {style="position: absolute; top: 570px; left: 380px;"}
+::: {.tiny}
+January 11, 2007, National Research Council
+:::
+:::
+:::
+
+::: {.column width="20%"}
+
+![Jim Gray](./images/gray.png)
+
+:::
+
+::::
+
+::: {style="position: absolute; top: 600px; left: 0px;"}
+::: {.fragment}
+What can we ask with data science?
+:::
+:::
 
 ## The white matter matters
 
@@ -164,6 +192,7 @@ Image credit: [https://www.thebetterindia.com/90353/india-beautiful-astronomical
 
 ## The white matter matters
 
+::: {.small}
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -172,78 +201,199 @@ Image credit: [https://www.thebetterindia.com/90353/india-beautiful-astronomical
 ![](./images/wiki-neuron.png)
 
 :::
+
+::: {.fragment}
+![de Faria et al., 2021](./images/defaria.png)
+:::
+:::
+
+
+::: {.column width="50%"}
+::: {style="text-align:right;"}
+
+![https://en.wikipedia.org/wiki/Axon](./images/wiki-wm.png)
+
+:::
+
+::: {.fragment}
+
+![Scholz et al., 2009; reviewed in Sampaio-Bautista and Johansen-Berg, 2017](./images/scholz_sampaio_bautista.png)
+:::
+
+:::
+:::
+
+::::
+
+## Diffusion-weighted MRI
+
+
+## Computational dissection
+
+:::: {.columns}
+::: {.column width="50%"}
+
+{{< video ./images/whole_brain.mp4 autoplay="true" width="500" height="500" loop="true">}}
 :::
 
 ::: {.column width="50%"}
 ::: {.fragment}
-::: {style="text-align:right;"}
-
-![](./images/wiki-wm.png)
+{{< video ./images/cc_tube_movie-373.mov width="500" height="500">}}
+:::
 :::
 
+::::
+
+## White matter tractometry
+::: {.tiny}
+
+::: {style="position: absolute; top: 100px; left: 20px;"}
+![Kruper et al., 2021](./images/whole_brain.gif){height=600}
+:::
+:::
+
+## White matter tractometry
+::: {.tiny}
+
+::: {style="position: absolute; top: 100px; left: 20px;"}
+![Kruper et al., 2021](./images/whole_brain_with_waypoints.gif){height=600}
+:::
+
+:::
+
+
+## White matter tractometry
+::: {.tiny}
+::: {style="position: absolute; top: 100px; left: 20px;"}
+![Kruper et al., 2021](./images/arc1.gif){height=600}
+:::
+:::
+
+## White matter tractometry
+
+::: {.tiny}
+::: {style="position: absolute; top: 100px; left: 20px;"}
+![Kruper et al., 2021](./images/arc2.gif){height=600}
+:::
+:::
+
+## White matter tractometry
+
+::: {.tiny}
+::: {style="position: absolute; top: 100px; left: 20px;"}
+![Kruper et al., 2021](./images/arc3.gif){height=600}
+:::
+:::
+
+## White matter tractometry
+
+::: {.tiny}
+::: {style="position: absolute; top: 100px; left: 20px;"}
+![Kruper et al., 2021](./images/arc4.gif){height=600}
+:::
+:::
+
+## White matter tractometry
+
+::: {.tiny}
+::: {style="position: absolute; top: 100px; left: 20px;"}
+![Kruper et al., 2021](./images/arc5.gif){height=600}
+:::
+
+::: {.fragment}
+::: {style="position: absolute; top: 250px; left: 550px;"}
+![](./images/arc_tract_profile.png)
+:::
+:::
+
+:::
+
+## White matter tractometry
+
+::: {.tiny}
+::: {style="position: absolute; top: 100px; left: 100px;"}
+![Kruper et al., 2021](./images/all_bundles.gif){height=600}
+:::
+:::
+
+## White matter tractometry
+::: {.tiny}
+::: {style="position: absolute; top: 100px; left: 100px;"}
+![Kruper et al., 2021](./images/all_tract_profiles.gif){height=600}
+:::
+:::
+
+## White matter tractometry
+
+:::: {.columns}
+::: {.column width="50%"}
+
+::: {.tiny}
+![Kruper et al., 2024](./images/hcp_tracts.png){height=500}
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.tiny}
+![Kruper et al., 2024](./images/hcp_tracts.png){height=500}
 :::
 :::
 ::::
 
-##
+## Opportunities and challenges in BIG DATA neuroscience
 
-
-
-::: {.hidden}
-
-## Frictionless reproducibility
-
+---
+incremental: false
+---
 
 :::: {.columns}
 
-::: {.column width="80%"}
+::: {.column width="50%"}
 
-::: {.small}
-
-data sharing, code sharing, and benchmark data competition
-
-- FR1: Data sharing
-- FR2: Code sharing
-- FR3: The common task framework
-- Example: Empirical machine learning
-  - Rapid and accelerating progress since ~2012
-  - Data: Imagenet, Common Crawl, etc.
-  - Code:
-    - Scientific Python ecosystem
-    - Theano, TensorFlow, Pytorch, Hugging face, etc.
-  - Common tasks: Imagenet, Kaggle, etc.
-- Another example: COVID mRNA vaccines
-  - Data: COVID19 sequence available
+- Data-driven research
+  - Machine learning methods
   -
-:::
-
-
 
 :::
 
-::: {.column width="20%"}
-::: {style="text-align:center;"}
-![David Donoho](./images/donoho.png){height=100 fig-align="center"}
-:::
+::: {.column width="50%"}
+
+- Procedures that are routine with small datasets become near impossible with large datasets
+- Conventional statistical significance
 :::
 
 ::::
 
-::: {style="position: absolute; bottom: 80px; left: 0;"}
-::: {.tiny}
-["Data Science at the Singularity", 2024](https://hdsr.mitpress.mit.edu/pub/g9mau4m0/release/2)
-:::
-:::
+---
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](./images/witten_pvalues.png)
 
 :::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+![](./images/glaucoma1.png){height=300px}
+:::
+
+::: {.fragment}
+![](./images/glaucoma2.png){height=300px}
+:::
+
+
+:::
+
+::::
+
+
 
 
 ## Challenges of BIG DATA
-- Research procedures that are routine for small experimental datasets are close to impossible in large datasets
-- These datasets present remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to study the brain basis of individual differences, but care needs to be taken so that these methods are not led astray by confounding information or become too opaque to provide useful information.
--  We have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing
-interpretable machine learning methods.
-
 
 
 <!--
