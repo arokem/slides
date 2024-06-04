@@ -31,6 +31,13 @@
     "text": "Brain observatories\n\n\n\n\n\nN=1,200\n\n\n\n\n\n\n\n\n\nN=800\n\n\n\n\n\n\n\n\n\nN=700\n\n\n\n\n\n\n\n\n\nN=5,000\n\n\n\n\n\n\n\n\n\nN=10,000\n\n\n\n\n\n\n\n\n\nN=500,000"
   },
   {
+    "objectID": "slides/what-should-we-do.html#data-driven-discovery-or-data-science",
+    "href": "slides/what-should-we-do.html#data-driven-discovery-or-data-science",
+    "title": "What should we do with BIG DATA?",
+    "section": "Data-driven discovery … or “data science”",
+    "text": "Data-driven discovery … or “data science”\n\n\n\n“Jim Gray unveiled a vision of the fourth-paradigm… scientific methodology has evolved into three distinct archetypes: empiricism, theory, and computation. The Fourth Paradigm is an entirely new phase that involves data-intensive practices. Termed “eScience,” this fourth paradigm unites theory, experimentation, and computation”\n\n\n\nJanuary 11, 2007, National Research Council\n\n\n\n\n\n\nJim Gray\n\n\n\n\n\n\nWhat can we ask with data science?"
+  },
+  {
     "objectID": "slides/what-should-we-do.html#the-white-matter-matters",
     "href": "slides/what-should-we-do.html#the-white-matter-matters",
     "title": "What should we do with BIG DATA?",
@@ -42,21 +49,105 @@
     "href": "slides/what-should-we-do.html#the-white-matter-matters-1",
     "title": "What should we do with BIG DATA?",
     "section": "The white matter matters",
-    "text": "The white matter matters"
+    "text": "The white matter matters\n\n\n\n\n\n\n\n\n\n\nde Faria et al., 2021\n\n\n\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Axon\n\n\n\n\n\n\n\nScholz et al., 2009; reviewed in Sampaio-Bautista and Johansen-Berg, 2017"
   },
   {
-    "objectID": "slides/what-should-we-do.html#frictionless-reproducibility",
-    "href": "slides/what-should-we-do.html#frictionless-reproducibility",
+    "objectID": "slides/what-should-we-do.html#diffusion-weighted-mri",
+    "href": "slides/what-should-we-do.html#diffusion-weighted-mri",
     "title": "What should we do with BIG DATA?",
-    "section": "Frictionless reproducibility",
-    "text": "Frictionless reproducibility\n\n\n\ndata sharing, code sharing, and benchmark data competition\n\nFR1: Data sharing\nFR2: Code sharing\nFR3: The common task framework\nExample: Empirical machine learning\n\nRapid and accelerating progress since ~2012\nData: Imagenet, Common Crawl, etc.\nCode:\n\nScientific Python ecosystem\nTheano, TensorFlow, Pytorch, Hugging face, etc.\n\nCommon tasks: Imagenet, Kaggle, etc.\n\nAnother example: COVID mRNA vaccines\n\nData: COVID19 sequence available\n\n\n\n\n\n\n\n\n\nDavid Donoho\n\n\n\n\n\n\n\n“Data Science at the Singularity”, 2024"
+    "section": "Diffusion-weighted MRI",
+    "text": "Diffusion-weighted MRI"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#computational-dissection",
+    "href": "slides/what-should-we-do.html#computational-dissection",
+    "title": "What should we do with BIG DATA?",
+    "section": "Computational dissection",
+    "text": "Computational dissection"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\nKruper et al., 2021"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry-1",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry-1",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\nKruper et al., 2021"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry-2",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry-2",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\nKruper et al., 2021"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry-3",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry-3",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\nKruper et al., 2021"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry-4",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry-4",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\nKruper et al., 2021"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry-5",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry-5",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\nKruper et al., 2021"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry-6",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry-6",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\nKruper et al., 2021"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry-7",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry-7",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\nKruper et al., 2021"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry-8",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry-8",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\nKruper et al., 2021"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#white-matter-tractometry-9",
+    "href": "slides/what-should-we-do.html#white-matter-tractometry-9",
+    "title": "What should we do with BIG DATA?",
+    "section": "White matter tractometry",
+    "text": "White matter tractometry\n\n\n\n\n\n\nKruper et al., 2024\n\n\n\n\n\n\n\n\nKruper et al., 2024"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#opportunities-and-challenges-in-big-data-neuroscience",
+    "href": "slides/what-should-we-do.html#opportunities-and-challenges-in-big-data-neuroscience",
+    "title": "What should we do with BIG DATA?",
+    "section": "Opportunities and challenges in BIG DATA neuroscience",
+    "text": "Opportunities and challenges in BIG DATA neuroscience\n\n\n\nData-driven research\n\nMachine learning methods\n\n\n\n\n\nProcedures that are routine with small datasets become near impossible with large datasets\nConventional statistical significance"
   },
   {
     "objectID": "slides/what-should-we-do.html#challenges-of-big-data",
     "href": "slides/what-should-we-do.html#challenges-of-big-data",
     "title": "What should we do with BIG DATA?",
     "section": "Challenges of BIG DATA",
-    "text": "Challenges of BIG DATA\n\nResearch procedures that are routine for small experimental datasets are close to impossible in large datasets\nThese datasets present remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to study the brain basis of individual differences, but care needs to be taken so that these methods are not led astray by confounding information or become too opaque to provide useful information.\nWe have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing interpretable machine learning methods."
+    "text": "Challenges of BIG DATA"
   },
   {
     "objectID": "about.html",

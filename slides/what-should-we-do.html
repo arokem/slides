@@ -7,8 +7,10 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.554">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.555">
 
   <meta name="author" content="Ariel Rokem">
   <meta name="dcterms.date" content="2024-10-06">
@@ -497,6 +499,33 @@
 </div>
 </div>
 </section>
+<section id="data-driven-discovery-or-data-science" class="slide level2">
+<h2>Data-driven discovery … or “data science”</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<blockquote>
+<p>“Jim Gray unveiled a vision of the fourth-paradigm… scientific methodology has evolved into three distinct archetypes: empiricism, theory, and computation. The Fourth Paradigm is an entirely new phase that involves data-intensive practices. Termed “eScience,” this fourth paradigm unites theory, experimentation, and computation”</p>
+</blockquote>
+<div style="position: absolute; top: 570px; left: 380px;">
+<div class="tiny">
+<p>January 11, 2007, National Research Council</p>
+</div>
+</div>
+</div><div class="column" style="width:20%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/gray.png"></p>
+<figcaption>Jim Gray</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div style="position: absolute; top: 600px; left: 0px;">
+<div class="fragment">
+<p>What can we ask with data science?</p>
+</div>
+</div>
+</section>
 <section id="the-white-matter-matters" class="slide level2">
 <h2>The white matter matters</h2>
 <div class="columns">
@@ -520,75 +549,238 @@
 </section>
 <section id="the-white-matter-matters-1" class="slide level2">
 <h2>The white matter matters</h2>
+<div class="small">
 <div class="columns">
 <div class="column" style="width:50%;">
 <div style="text-align:right;">
 <p><img data-src="./images/wiki-neuron.png"></p>
 </div>
-</div><div class="column" style="width:50%;">
 <div class="fragment">
-<div style="text-align:right;">
-<p><img data-src="./images/wiki-wm.png"></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="section" class="slide level2">
-<h2></h2>
-</section>
-<section id="frictionless-reproducibility" class="slide level2 hidden">
-<h2>Frictionless reproducibility</h2>
-<div class="columns">
-<div class="column" style="width:80%;">
-<div class="small">
-<p>data sharing, code sharing, and benchmark data competition</p>
-<ul>
-<li class="fragment">FR1: Data sharing</li>
-<li class="fragment">FR2: Code sharing</li>
-<li class="fragment">FR3: The common task framework</li>
-<li class="fragment">Example: Empirical machine learning
-<ul>
-<li class="fragment">Rapid and accelerating progress since ~2012</li>
-<li class="fragment">Data: Imagenet, Common Crawl, etc.</li>
-<li class="fragment">Code:
-<ul>
-<li class="fragment">Scientific Python ecosystem</li>
-<li class="fragment">Theano, TensorFlow, Pytorch, Hugging face, etc.</li>
-</ul></li>
-<li class="fragment">Common tasks: Imagenet, Kaggle, etc.</li>
-</ul></li>
-<li class="fragment">Another example: COVID mRNA vaccines
-<ul>
-<li class="fragment">Data: COVID19 sequence available</li>
-<li class="fragment"></li>
-</ul></li>
-</ul>
-</div>
-</div><div class="column" style="width:20%;">
-<div style="text-align:center;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="./images/donoho.png" height="100"></p>
-<figcaption>David Donoho</figcaption>
+<p><img data-src="./images/defaria.png"></p>
+<figcaption>de Faria et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div style="text-align:right;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/wiki-wm.png"></p>
+<figcaption>https://en.wikipedia.org/wiki/Axon</figcaption>
+</figure>
+</div>
+</div>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/scholz_sampaio_bautista.png"></p>
+<figcaption>Scholz et al., 2009; reviewed in Sampaio-Bautista and Johansen-Berg, 2017</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<div style="position: absolute; bottom: 80px; left: 0;">
+</div>
+</section>
+<section id="diffusion-weighted-mri" class="slide level2">
+<h2>Diffusion-weighted MRI</h2>
+</section>
+<section id="computational-dissection" class="slide level2">
+<h2>Computational dissection</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<video id="video_shortcode_videojs_video1" width="500" height="500" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="./images/whole_brain.mp4"></video>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<video id="video_shortcode_videojs_video2" width="500" height="500" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="./images/cc_tube_movie-373.mov"></video>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry" class="slide level2">
+<h2>White matter tractometry</h2>
 <div class="tiny">
-<p><a href="https://hdsr.mitpress.mit.edu/pub/g9mau4m0/release/2">“Data Science at the Singularity”, 2024</a></p>
+<div style="position: absolute; top: 100px; left: 20px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/whole_brain.gif" height="600"></p>
+<figcaption>Kruper et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry-1" class="slide level2">
+<h2>White matter tractometry</h2>
+<div class="tiny">
+<div style="position: absolute; top: 100px; left: 20px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/whole_brain_with_waypoints.gif" height="600"></p>
+<figcaption>Kruper et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry-2" class="slide level2">
+<h2>White matter tractometry</h2>
+<div class="tiny">
+<div style="position: absolute; top: 100px; left: 20px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/arc1.gif" height="600"></p>
+<figcaption>Kruper et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry-3" class="slide level2">
+<h2>White matter tractometry</h2>
+<div class="tiny">
+<div style="position: absolute; top: 100px; left: 20px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/arc2.gif" height="600"></p>
+<figcaption>Kruper et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry-4" class="slide level2">
+<h2>White matter tractometry</h2>
+<div class="tiny">
+<div style="position: absolute; top: 100px; left: 20px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/arc3.gif" height="600"></p>
+<figcaption>Kruper et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry-5" class="slide level2">
+<h2>White matter tractometry</h2>
+<div class="tiny">
+<div style="position: absolute; top: 100px; left: 20px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/arc4.gif" height="600"></p>
+<figcaption>Kruper et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry-6" class="slide level2">
+<h2>White matter tractometry</h2>
+<div class="tiny">
+<div style="position: absolute; top: 100px; left: 20px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/arc5.gif" height="600"></p>
+<figcaption>Kruper et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+<div class="fragment">
+<div style="position: absolute; top: 250px; left: 550px;">
+<p><img data-src="./images/arc_tract_profile.png"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry-7" class="slide level2">
+<h2>White matter tractometry</h2>
+<div class="tiny">
+<div style="position: absolute; top: 100px; left: 100px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/all_bundles.gif" height="600"></p>
+<figcaption>Kruper et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry-8" class="slide level2">
+<h2>White matter tractometry</h2>
+<div class="tiny">
+<div style="position: absolute; top: 100px; left: 100px;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/all_tract_profiles.gif" height="600"></p>
+<figcaption>Kruper et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="white-matter-tractometry-9" class="slide level2">
+<h2>White matter tractometry</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="tiny">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/hcp_tracts.png" height="500"></p>
+<figcaption>Kruper et al., 2024</figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="tiny">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/hcp_tracts.png" height="500"></p>
+<figcaption>Kruper et al., 2024</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="opportunities-and-challenges-in-big-data-neuroscience" class="slide level2">
+<h2>Opportunities and challenges in BIG DATA neuroscience</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Data-driven research
+<ul>
+<li class="fragment">Machine learning methods</li>
+<li class="fragment"></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Procedures that are routine with small datasets become near impossible with large datasets</li>
+<li class="fragment">Conventional statistical significance</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="./images/witten_pvalues.png"></p>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><img data-src="./images/glaucoma1.png" height="300"></p>
+</div>
+<div class="fragment">
+<p><img data-src="./images/glaucoma2.png" height="300"></p>
+</div>
 </div>
 </div>
 </section>
 <section id="challenges-of-big-data" class="slide level2">
 <h2>Challenges of BIG DATA</h2>
-<ul>
-<li class="fragment">Research procedures that are routine for small experimental datasets are close to impossible in large datasets</li>
-<li class="fragment">These datasets present remarkable opportunities to harness data-driven methods, such as machine learning algorithms, to study the brain basis of individual differences, but care needs to be taken so that these methods are not led astray by confounding information or become too opaque to provide useful information.</li>
-<li class="fragment">We have addressed this by creating tightly-matched sub-samples from large datasets, and by harnessing interpretable machine learning methods.</li>
-</ul>
 <!--
 Thanks to advances in data collection technologies, and in the technologies to store and compute on
 data, and thanks to sociotechnical trends towards increased reproducibility and transparency,
@@ -737,7 +929,7 @@ that we have established in order to provide such training.
         showNotes: false,
 
         // Global override for autoplaying embedded media (null/true/false)
-        autoPlayMedia: null,
+        autoPlayMedia: true,
 
         // Global override for preloading lazy-loaded iframes (null/true/false)
         preloadIframes: null,
@@ -1004,6 +1196,8 @@ that we have established in order to provide such training.
       }
     });
     </script>
+    <script>videojs(video_shortcode_videojs_video1);</script>
+    <script>videojs(video_shortcode_videojs_video2);</script>
     
 
 </body></html>
