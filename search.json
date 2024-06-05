@@ -35,7 +35,7 @@
     "href": "slides/what-should-we-do.html#data-driven-discovery-or-data-science",
     "title": "What should we do with BIG DATA?",
     "section": "Data-driven discovery … or “data science”",
-    "text": "Data-driven discovery … or “data science”\n\n\n\n“Jim Gray unveiled a vision of the fourth-paradigm… scientific methodology has evolved into three distinct archetypes: empiricism, theory, and computation. The Fourth Paradigm is an entirely new phase that involves data-intensive practices. Termed “eScience,” this fourth paradigm unites theory, experimentation, and computation”\n\n\n\nJanuary 11, 2007, National Research Council\n\n\n\n\n\n\nJim Gray\n\n\n\n\n\n\nWhat can we ask with data science?"
+    "text": "Data-driven discovery … or “data science”\n\n\n\nJim Gray unveiled a vision of the fourth-paradigm… scientific methodology has evolved into three distinct archetypes: empiricism, theory, and computation. The Fourth Paradigm is an entirely new phase that involves data-intensive practices. Termed “eScience,” this fourth paradigm unites theory, experimentation, and computation\n\n\n\nJanuary 11, 2007, National Research Council\n\n\n\n\n\n\nJim Gray\n\n\n\n\n\n\nWhat can we ask with data science?"
   },
   {
     "objectID": "slides/what-should-we-do.html#the-white-matter-matters",
@@ -52,11 +52,74 @@
     "text": "The white matter matters\n\n\n\n\n\n\n\n\n\n\nde Faria et al., 2021\n\n\n\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Axon\n\n\n\n\n\n\n\nScholz et al., 2009; reviewed in Sampaio-Bautista and Johansen-Berg, 2017"
   },
   {
+    "objectID": "slides/what-should-we-do.html#magnetic-resonance-imaging-mri",
+    "href": "slides/what-should-we-do.html#magnetic-resonance-imaging-mri",
+    "title": "What should we do with BIG DATA?",
+    "section": "Magnetic Resonance Imaging (MRI)",
+    "text": "Magnetic Resonance Imaging (MRI)"
+  },
+  {
     "objectID": "slides/what-should-we-do.html#diffusion-weighted-mri",
     "href": "slides/what-should-we-do.html#diffusion-weighted-mri",
     "title": "What should we do with BIG DATA?",
     "section": "Diffusion-weighted MRI",
     "text": "Diffusion-weighted MRI\n\n\n\n\n\nPlot.plot({\n  axis: null,\n  x: {domain: [-1, 11]},\n  y: {domain: [-1, 11]},\n  marks: [\n    Plot.arrow(data, {y1: \"x1\", x1: \"y1\", y2: \"x2\", x2: \"y2\", strokeWidth: 5}),\n          ]})\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = [\n  {x1: 0, y1: 0, x2:5, y2:0},\n  {x1: 5, y1: 0, x2:0, y2:0},\n]\n\nPlot.plot({\n  axis: null,\n  x: {domain: [-1, 11]},\n  marks: [\n    Plot.arrow(data, {x1: \"x1\", y1: \"y1\", x2: \"x2\", y2: \"y2\", strokeWidth: 10}),\n          ]})"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#diffusion-weighted-mri-1",
+    "href": "slides/what-should-we-do.html#diffusion-weighted-mri-1",
+    "title": "What should we do with BIG DATA?",
+    "section": "Diffusion-weighted MRI",
+    "text": "Diffusion-weighted MRI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n:::"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#diffusion-weighted-mri-2",
+    "href": "slides/what-should-we-do.html#diffusion-weighted-mri-2",
+    "title": "What should we do with BIG DATA?",
+    "section": "Diffusion-weighted MRI",
+    "text": "Diffusion-weighted MRI"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#diffusion-weighted-mri-3",
+    "href": "slides/what-should-we-do.html#diffusion-weighted-mri-3",
+    "title": "What should we do with BIG DATA?",
+    "section": "Diffusion-weighted MRI",
+    "text": "Diffusion-weighted MRI\n\n\n\n\n\n\n\n\n\n\n\n\nBasser (1994), Basser and Pierpaoli (1996)"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#computational-tract-tracing",
+    "href": "slides/what-should-we-do.html#computational-tract-tracing",
+    "title": "What should we do with BIG DATA?",
+    "section": "Computational tract tracing",
+    "text": "Computational tract tracing"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#computational-tract-tracing-1",
+    "href": "slides/what-should-we-do.html#computational-tract-tracing-1",
+    "title": "What should we do with BIG DATA?",
+    "section": "Computational tract tracing",
+    "text": "Computational tract tracing"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#computational-tract-tracing-2",
+    "href": "slides/what-should-we-do.html#computational-tract-tracing-2",
+    "title": "What should we do with BIG DATA?",
+    "section": "Computational tract tracing",
+    "text": "Computational tract tracing"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#computational-tract-tracing-3",
+    "href": "slides/what-should-we-do.html#computational-tract-tracing-3",
+    "title": "What should we do with BIG DATA?",
+    "section": "Computational tract tracing",
+    "text": "Computational tract tracing"
+  },
+  {
+    "objectID": "slides/what-should-we-do.html#computational-tract-tracing-4",
+    "href": "slides/what-should-we-do.html#computational-tract-tracing-4",
+    "title": "What should we do with BIG DATA?",
+    "section": "Computational tract tracing",
+    "text": "Computational tract tracing"
   },
   {
     "objectID": "slides/what-should-we-do.html#computational-dissection",
