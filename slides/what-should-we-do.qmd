@@ -148,7 +148,7 @@ Image credit: [https://www.thebetterindia.com/90353/india-beautiful-astronomical
 :::: {.columns}
 
 ::: {.column width="80%"}
-> “Jim Gray unveiled a vision of the fourth-paradigm... scientific methodology has evolved into three distinct archetypes: empiricism, theory, and computation. The Fourth Paradigm is an entirely new phase that involves data-intensive practices. Termed “eScience,” this fourth paradigm unites theory, experimentation, and computation”
+> Jim Gray unveiled a vision of the fourth-paradigm... scientific methodology has evolved into three distinct archetypes: empiricism, theory, and computation. The Fourth Paradigm is an entirely new phase that involves data-intensive practices. Termed “eScience,” this fourth paradigm unites theory, experimentation, and computation
 
 ::: {style="position: absolute; top: 570px; left: 380px;"}
 ::: {.tiny}
@@ -184,8 +184,11 @@ What can we ask with data science?
 
 ::: {.column width="50%"}
 
+:::{ .fragment}
+
 ![](./images/seung.png){height=500 fig-align="right"}
 
+:::
 :::
 
 ::::
@@ -224,6 +227,26 @@ What can we ask with data science?
 :::
 
 ::::
+
+## Magnetic Resonance Imaging (MRI)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](./images/chn1.png){height="400"}
+:::
+
+
+::: {.column width="50%"}
+![](./images/chn2.png){height="400"}
+:::
+::::
+
+::: {style="position: absolute; top: 500px; left: 20px;"}
+![](./images/chn_logo.png){height="100"}
+:::
+
+
 
 ## Diffusion-weighted MRI
 
@@ -273,9 +296,101 @@ Plot.plot({
 
 :::
 
+## Diffusion-weighted MRI
+
+::: {style="position: absolute; top: 60px; left: 0px;"}
+![](./images/myelin_wraps.png){height=200}
+:::
+
+::: {.fragment}
+::: {style="position: absolute; top: 270px; left: 0px;"}
+![](./images/schematic_axons.png){height=200}
+:::
+:::
+
+::: {.fragment}
+::: {style="position: absolute; top: 60px; left: 200px;"}
+![](./images/fascicles_upclose.png){height=200}
+:::
+:::
 
 
+::: {.fragment}
+::: {style="position: absolute; top: 270px; left: 200px;"}
+![](./images/post_mortem_or.png){height=400}
+:::
+:::
+:::
 
+::: {.fragment}
+::: {style="transform: rotate(90deg); scale:1; position: absolute; top: 100px; left: 400px;"}
+![](./images/diffusion-anisotropic.gif)
+:::
+:::
+
+## Diffusion-weighted MRI
+
+::: {style="position: absolute; top: 100px; left: 20px;"}
+![](./images/dwi-ap.png){height="500"}
+:::
+
+::: {style="transform: rotate(90deg); scale:1; position: absolute; top: 100px; left: 400px;"}
+![](./images/diffusion-anisotropic.gif)
+:::
+
+## Diffusion-weighted MRI
+
+![](./images/diffusion-metrics.png)
+
+::: {style="position: absolute; top: 520px; left: 20px;"}
+![](./images/md-scale.png){height=50}
+:::
+
+::: {style="position: absolute; top: 520px; left: 425px;"}
+![](./images/diffusion-fa-251.gif){height=100}
+:::
+
+::: {style="position: absolute; top: 520px; left: 800px;"}
+![](./images/pdd-directions.png){height=100}
+:::
+
+::: {style="position: absolute; top: 650px; left: 0px;"}
+::: {.tiny}
+Basser (1994), Basser and Pierpaoli (1996)
+:::
+:::
+
+## Computational tract tracing
+
+![](./images/computational-tract-tracing1.png){height=600}
+
+
+## Computational tract tracing
+---
+  transition: none
+---
+
+![](./images/computational-tract-tracing2.png){height=600}
+
+
+## Computational tract tracing
+
+![](./images/computational-tract-tracing4.png){height=600}
+
+## Computational tract tracing
+---
+  transition: none
+---
+
+![](./images/computational-tract-tracing5.png){height=600}
+
+
+## Computational tract tracing
+---
+  transition: none
+---
+
+![](./images/computational-tract-tracing6.png){height=600}
 
 ## Computational dissection
 
